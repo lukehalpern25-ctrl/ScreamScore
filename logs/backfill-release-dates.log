@@ -1,0 +1,1175 @@
+
+============================================================
+  Release Date Backfill
+  Updating movies with release dates from TMDB
+============================================================
+
+📊 Found 1157 movies to update
+
+✅ [1/1157] Re-Animator → 1985-10-18
+✅ [2/1157] Freaks → 1932-01-01
+✅ [3/1157] It Follows → 2015-02-04
+✅ [4/1157] Eyes Without a Face → 1960-01-11
+✅ [5/1157] Invasion of the Body Snatchers → 1978-12-20
+✅ [6/1157] A Red Recipe To Cook Crustaceans → 2007-01-01
+✅ [7/1157] The Babadook → 2014-05-22
+✅ [8/1157] Peeping Tom → 1960-04-07
+✅ [9/1157] Black Christmas → 1974-10-11
+✅ [10/1157] Shaun of the Dead → 2004-04-09
+✅ [11/1157] Aliens → 1986-07-18
+✅ [12/1157] Videodrome → 1983-02-04
+✅ [13/1157] The Devil's Backbone → 2001-04-20
+✅ [14/1157] Cat People → 1942-12-05
+✅ [15/1157] The Sixth Sense → 1999-08-06
+✅ [16/1157] Martyrs → 2008-06-12
+✅ [17/1157] Eraserhead → 1977-09-28
+✅ [18/1157] Drácula → 1931-03-01
+✅ [19/1157] Deep Red → 1975-03-07
+✅ [20/1157] The Ring → 2002-10-18
+✅ [21/1157] The Return of the Living Dead → 1985-04-25
+✅ [22/1157] The Conjuring → 2013-07-18
+✅ [23/1157] Possession → 1981-05-27
+✅ [24/1157] Ring → 1998-01-31
+✅ [25/1157] Carnival of Souls → 1962-11-02
+✅ [26/1157] The Fog → 1980-02-01
+✅ [27/1157] The Orphanage → 2007-05-20
+✅ [28/1157] Pan's Labyrinth → 2006-10-11
+✅ [29/1157] The Others → 2001-08-02
+✅ [30/1157] Kwaidan → 1965-01-06
+✅ [31/1157] Near Dark → 1987-10-02
+✅ [32/1157] Jacob's Ladder → 1990-11-02
+✅ [33/1157] The Brood → 1979-05-25
+✅ [34/1157] Saw → 2004-10-01
+✅ [35/1157] The Changeling → 1980-03-28
+✅ [36/1157] Se7en → 1995-09-22
+✅ [37/1157] Paranormal Activity → 2007-09-14
+✅ [38/1157] Black Sunday → 1960-08-11
+✅ [39/1157] A Quiet Place → 2018-04-03
+✅ [40/1157] Misery → 1990-11-30
+✅ [41/1157] Friday the 13th → 1980-05-09
+✅ [42/1157] Trick 'r Treat → 2007-12-09
+✅ [43/1157] The Tenants → 1976-02-20
+✅ [44/1157] Army of Darkness → 1992-10-31
+✅ [45/1157] Pulse → 2001-02-03
+✅ [46/1157] The Howling → 1981-01-21
+✅ [47/1157] Vampyr → 1932-05-06
+✅ [48/1157] Day of the Dead → 1985-07-03
+✅ [49/1157] Henry: Portrait of a Serial Killer → 1986-09-24
+✅ [50/1157] The Lost Boys → 1987-07-31
+✅ [51/1157] Godzilla → 1954-11-03
+✅ [52/1157] Candyman → 1992-10-16
+✅ [53/1157] The Phantom of the Opera → 1925-06-29
+✅ [54/1157] Diabolique → 1955-01-29
+✅ [55/1157] The Wolf Man → 1941-12-09
+✅ [56/1157] It → 2017-09-06
+✅ [57/1157] Insidious → 2011-03-31
+✅ [58/1157] Creepshow → 1982-11-10
+✅ [59/1157] In the Mouth of Madness → 1995-02-03
+✅ [60/1157] What We Do in the Shadows → 2014-06-19
+✅ [61/1157] The Vanishing → 1988-10-27
+✅ [62/1157] King Kong → 1933-03-15
+✅ [63/1157] The Night of the Hunter → 1955-07-26
+✅ [64/1157] Pet Sematary → 1989-04-21
+✅ [65/1157] Ginger Snaps → 2001-03-13
+✅ [66/1157] Gremlins → 1984-06-08
+✅ [67/1157] A Tale of Two Sisters → 2003-06-13
+✅ [68/1157] Train to Busan → 2016-07-20
+✅ [69/1157] Under the Skin → 2014-03-14
+✅ [70/1157] The Mist → 2007-11-21
+✅ [71/1157] You're Next → 2013-08-22
+✅ [72/1157] Drag Me to Hell → 2009-05-27
+✅ [73/1157] Event Horizon → 1997-08-15
+✅ [74/1157] Predator → 1987-06-12
+✅ [75/1157] Tucker and Dale vs. Evil → 2010-01-22
+✅ [76/1157] Child's Play → 1988-11-09
+✅ [77/1157] Zombieland → 2009-10-02
+✅ [78/1157] Dead Ringers → 1988-09-23
+✅ [79/1157] Session 9 → 2001-08-10
+✅ [80/1157] The House of the Devil → 2009-10-30
+✅ [81/1157] From Dusk Till Dawn → 1996-01-19
+✅ [82/1157] The Strangers → 2008-05-29
+✅ [83/1157] Blue Velvet → 1986-09-19
+✅ [84/1157] I Saw the Devil → 2010-08-12
+✅ [85/1157] Interview with the Vampire → 1994-11-11
+✅ [86/1157] Raw → 2016-11-11
+✅ [87/1157] Let Me In → 2010-10-01
+✅ [88/1157] Evil Dead → 2013-04-05
+✅ [89/1157] They Live → 1988-11-04
+✅ [90/1157] The Autopsy of Jane Doe → 2016-12-21
+✅ [91/1157] Kill List → 2011-09-02
+✅ [92/1157] American Psycho → 2000-01-21
+✅ [93/1157] The Exorcist III → 1990-08-17
+✅ [94/1157] Fright Night → 1985-08-02
+✅ [95/1157] Sinister → 2012-03-29
+✅ [96/1157] The Hills Have Eyes → 1977-07-22
+✅ [97/1157] Green Room → 2016-04-15
+✅ [98/1157] Scanners → 1981-01-14
+✅ [99/1157] Final Destination → 2000-03-17
+✅ [100/1157] Annihilation → 2018-02-22
+✅ [101/1157] Bone Tomahawk → 2015-10-23
+✅ [102/1157] The Frighteners → 1996-07-19
+✅ [103/1157] The Nightmare Before Christmas → 1993-10-09
+✅ [104/1157] Coraline → 2009-02-05
+✅ [105/1157] 10 Cloverfield Lane → 2016-03-10
+✅ [106/1157] Young Frankenstein → 1974-12-15
+✅ [107/1157] Sleepy Hollow → 1999-11-19
+✅ [108/1157] Antichrist → 2009-05-20
+✅ [109/1157] Attack the Block → 2011-05-12
+✅ [110/1157] Black Swan → 2010-12-03
+✅ [111/1157] Tremors → 1990-01-19
+✅ [112/1157] Ju-on: The Grudge → 2002-10-18
+✅ [113/1157] Angel Heart → 1987-03-06
+✅ [114/1157] Funny Games → 1997-08-23
+✅ [115/1157] From Beyond → 1986-10-24
+✅ [116/1157] Cube → 1998-07-11
+✅ [117/1157] Don't Breathe → 2016-06-08
+✅ [118/1157] The Host → 2006-07-27
+✅ [119/1157] The Wailing → 2016-05-12
+✅ [120/1157] Beetlejuice → 1988-03-30
+✅ [121/1157] Jeepers Creepers → 2001-07-01
+✅ [122/1157] Manhunter → 1986-08-14
+✅ [123/1157] The Endless → 2017-11-05
+✅ [124/1157] The Hitcher → 1986-01-17
+✅ [125/1157] Housebound → 2014-09-04
+✅ [126/1157] The Gift → 2015-06-19
+✅ [127/1157] Corpse Bride → 2005-09-12
+✅ [128/1157] The Invitation → 2016-04-08
+✅ [129/1157] Gerald's Game → 2017-09-29
+✅ [130/1157] Thirst → 2009-04-30
+✅ [131/1157] The Conjuring 2 → 2016-06-08
+✅ [132/1157] The Blob → 1988-08-05
+✅ [133/1157] Noroi: The Curse → 2005-08-20
+✅ [134/1157] Cujo → 1983-08-10
+✅ [135/1157] Hush → 2016-03-12
+✅ [136/1157] Revenge → 2018-02-07
+✅ [137/1157] Spring → 2014-10-08
+✅ [138/1157] A Nightmare on Elm Street 3: Dream Warriors → 1987-02-27
+✅ [139/1157] Ravenous → 1999-03-16
+✅ [140/1157] The People Under the Stairs → 1991-11-01
+✅ [141/1157] Split → 2017-01-19
+✅ [142/1157] Shutter Island → 2010-02-14
+✅ [143/1157] Troll Hunter → 2010-10-29
+✅ [144/1157] Pontypool → 2009-03-06
+✅ [145/1157] It Comes at Night → 2017-06-09
+✅ [146/1157] Cloverfield → 2008-01-15
+✅ [147/1157] Overlord → 2018-11-01
+✅ [148/1157] Ghost Stories → 2018-01-20
+✅ [149/1157] Apostle → 2018-09-21
+✅ [150/1157] The Cell → 2000-08-18
+✅ [151/1157] Arachnophobia → 1990-07-20
+✅ [152/1157] Red Dragon → 2002-10-02
+✅ [153/1157] Orphan → 2009-07-24
+✅ [154/1157] mother! → 2017-09-13
+✅ [155/1157] The Final Girls → 2015-10-09
+✅ [156/1157] The Grudge → 2004-10-22
+✅ [157/1157] Signs → 2002-08-02
+✅ [158/1157] World War Z → 2013-06-19
+✅ [159/1157] Stoker → 2013-02-28
+✅ [160/1157] Pitch Black → 2000-02-18
+✅ [161/1157] Monster House → 2006-06-30
+✅ [162/1157] Annabelle: Creation → 2017-08-03
+✅ [163/1157] Silent Hill → 2006-04-21
+✅ [164/1157] Crimson Peak → 2015-10-13
+✅ [165/1157] Scream 2 → 1997-12-12
+✅ [166/1157] 30 Days of Night → 2007-10-17
+✅ [167/1157] Happy Death Day → 2017-10-12
+✅ [168/1157] Blade → 1998-08-21
+✅ [169/1157] The Shallows → 2016-06-24
+✅ [170/1157] Goosebumps → 2015-08-05
+✅ [171/1157] The House That Jack Built → 2018-10-04
+✅ [172/1157] Terrifier → 2018-01-25
+✅ [173/1157] The Babysitter → 2017-10-13
+✅ [174/1157] Lights Out → 2016-07-21
+✅ [175/1157] Ex Machina → 2015-01-21
+✅ [176/1157] Battle Royale → 2000-12-16
+✅ [177/1157] Us → 2019-03-14
+✅ [178/1157] Mandy → 2018-09-13
+✅ [179/1157] Upgrade → 2018-05-31
+✅ [180/1157] The Ritual → 2017-10-11
+✅ [181/1157] A Girl Walks Home Alone at Night → 2014-11-21
+✅ [182/1157] I Walked with a Zombie → 1943-04-21
+✅ [183/1157] The Last House on the Left → 1972-08-30
+✅ [184/1157] The Devils → 1971-07-16
+✅ [185/1157] Bram Stoker's Dracula → 1992-11-13
+✅ [186/1157] Creature from the Black Lagoon → 1954-03-05
+✅ [187/1157] May → 2003-04-11
+✅ [188/1157] Behind the Mask: The Rise of Leslie Vernon → 2006-08-29
+✅ [189/1157] The Invisible Man → 1933-10-31
+✅ [190/1157] I'm a Zombie, You're a Zombie, She's a Zombie → 1979-11-17
+✅ [191/1157] The Seventh Victim → 1943-08-21
+✅ [192/1157] Frailty → 2002-04-12
+✅ [193/1157] Inside → 2007-06-13
+✅ [194/1157] The Old Dark House → 1932-10-20
+✅ [195/1157] The Curse of Frankenstein → 1957-05-20
+✅ [196/1157] The Leopard Man → 1943-05-08
+✅ [197/1157] The Devil's Rejects → 2005-07-22
+✅ [198/1157] Black Sabbath → 1963-08-17
+✅ [199/1157] The Thing from Another World → 1951-04-05
+✅ [200/1157] Cannibal Holocaust → 1980-02-07
+✅ [201/1157] Inland Empire → 2006-12-06
+✅ [202/1157] Island of Lost Souls → 1932-12-23
+✅ [203/1157] Son of Frankenstein → 1939-01-13
+✅ [204/1157] The Abominable Dr. Phibes → 1971-04-01
+✅ [205/1157] Faust → 1926-10-13
+✅ [206/1157] Hangover Square → 1945-02-07
+✅ [207/1157] Wolf Creek → 2005-09-16
+✅ [208/1157] The Monster Squad → 1987-08-14
+✅ [209/1157] Opera → 1987-12-19
+✅ [210/1157] The Picture of Dorian Gray → 1945-03-03
+✅ [211/1157] The Spiral Staircase → 1946-01-26
+✅ [212/1157] The Body Snatcher → 1945-05-25
+✅ [213/1157] Tenebre → 1982-10-28
+✅ [214/1157] Village of the Damned → 1960-06-16
+✅ [215/1157] The Mummy → 1932-12-22
+✅ [216/1157] The Legend of Hell House → 1973-06-15
+✅ [217/1157] Goodnight Mommy → 2015-01-08
+✅ [218/1157] Sisters → 1973-03-26
+✅ [219/1157] Lake Mungo → 2009-07-30
+✅ [220/1157] The Skin I Live In → 2011-08-17
+✅ [221/1157] Trouble Every Day → 2001-07-11
+✅ [222/1157] The Killing of a Sacred Deer → 2017-10-20
+✅ [223/1157] Demons → 1985-10-04
+✅ [224/1157] Hostel → 2006-01-06
+✅ [225/1157] Cemetery Man → 1994-03-25
+✅ [226/1157] Spider Baby → 1967-12-24
+✅ [227/1157] The Incredible Shrinking Man → 1957-02-22
+✅ [228/1157] Blood and Black Lace → 1964-03-14
+✅ [229/1157] We Need to Talk About Kevin → 2011-09-28
+✅ [230/1157] The Rocky Horror Picture Show → 1975-08-14
+✅ [231/1157] Night of the Creeps → 1986-08-21
+✅ [232/1157] Wait Until Dark → 1967-10-26
+✅ [233/1157] The Dead Zone → 1983-10-21
+✅ [234/1157] The Uninvited → 1944-02-24
+✅ [235/1157] Prince of Darkness → 1987-10-23
+✅ [236/1157] Cronos → 1993-11-05
+✅ [237/1157] House of Wax → 1953-04-16
+✅ [238/1157] Mulholland Drive → 2001-06-06
+✅ [239/1157] 28 Weeks Later → 2007-04-26
+✅ [240/1157] Under the Shadow → 2016-09-30
+✅ [241/1157] Deliverance → 1972-08-18
+✅ [242/1157] Martin → 1978-05-10
+✅ [243/1157] The Devil Rides Out → 1968-07-20
+✅ [244/1157] Christine → 1983-12-09
+✅ [245/1157] Phantom of the Paradise → 1974-10-31
+✅ [246/1157] The Black Cat → 1934-05-07
+✅ [247/1157] Only Lovers Left Alive → 2013-12-12
+✅ [248/1157] Zodiac → 2007-03-02
+✅ [249/1157] The Shape of Water → 2017-12-01
+✅ [250/1157] Ichi the Killer → 2001-12-22
+✅ [251/1157] Witchfinder General → 1968-05-17
+✅ [252/1157] Sleepaway Camp → 1983-11-18
+✅ [253/1157] Cape Fear → 1991-11-13
+✅ [254/1157] Slither → 2006-03-31
+✅ [255/1157] Halloween II → 1981-10-30
+✅ [256/1157] Duel → 1971-11-13
+✅ [257/1157] House of Usher → 1960-06-18
+✅ [258/1157] Gaslight → 1944-05-04
+✅ [259/1157] We Are Still Here → 2015-06-05
+✅ [260/1157] Oculus → 2014-04-03
+✅ [261/1157] The Masque of the Red Death → 1964-06-24
+✅ [262/1157] Stake Land → 2010-09-30
+✅ [263/1157] Alone in the Dark → 1982-11-12
+✅ [264/1157] Life → 2017-03-22
+✅ [265/1157] Twilight Zone: The Movie → 1983-06-24
+✅ [266/1157] Dolls → 1986-10-27
+✅ [267/1157] The Faculty → 1998-12-25
+✅ [268/1157] Baskin → 2015-12-31
+✅ [269/1157] The Bay → 2012-09-13
+✅ [270/1157] Killer Klowns from Outer Space → 1988-05-27
+✅ [271/1157] The Visit → 2015-09-10
+✅ [272/1157] The Neon Demon → 2016-05-31
+✅ [273/1157] Honeymoon → 2014-09-12
+✅ [274/1157] Psycho II → 1983-06-03
+✅ [275/1157] The Midnight Meat Train → 2008-08-07
+✅ [276/1157] Tales of Halloween → 2015-10-16
+✅ [277/1157] The Amityville Horror → 2005-04-14
+✅ [278/1157] Krampus → 2015-11-26
+✅ [279/1157] Hocus Pocus → 1993-07-16
+✅ [280/1157] Lord of Illusions → 1995-08-25
+✅ [281/1157] Mama → 2013-01-17
+✅ [282/1157] Teeth → 2008-01-18
+✅ [283/1157] The Exorcism of Emily Rose → 2005-09-09
+✅ [284/1157] The Prophecy → 1995-08-05
+✅ [285/1157] Paranormal Activity 3 → 2011-10-19
+✅ [286/1157] Tourist Trap → 1979-03-14
+✅ [287/1157] Hannibal → 2001-02-08
+✅ [288/1157] Rubber → 2010-11-09
+✅ [289/1157] Scream 4 → 2011-04-13
+✅ [290/1157] The Last Exorcism → 2010-08-27
+✅ [291/1157] Friday the 13th Part VI: Jason Lives → 1986-08-01
+✅ [292/1157] Predators → 2010-07-07
+✅ [293/1157] The Purge: Anarchy → 2014-07-17
+✅ [294/1157] Red State → 2011-08-19
+✅ [295/1157] American Mary → 2013-01-11
+✅ [296/1157] The Funhouse → 1981-03-13
+✅ [297/1157] House of 1000 Corpses → 2003-04-11
+✅ [298/1157] The Mothman Prophecies → 2002-01-25
+✅ [299/1157] Underworld → 2003-09-19
+✅ [300/1157] Night of the Demons → 1988-10-14
+✅ [301/1157] Feast → 2005-10-14
+✅ [302/1157] Hellbound: Hellraiser II → 1988-12-23
+✅ [303/1157] The Gate → 1987-04-21
+✅ [304/1157] Vampire's Kiss → 1989-06-02
+✅ [305/1157] Saw II → 2005-10-28
+✅ [306/1157] Wolf → 1994-06-17
+✅ [307/1157] V/H/S → 2012-07-28
+✅ [308/1157] Unfriended → 2014-10-22
+✅ [309/1157] Insidious: Chapter 3 → 2015-05-28
+✅ [310/1157] Final Destination 5 → 2011-08-12
+✅ [311/1157] Alien³ → 1992-05-22
+✅ [312/1157] Cabin Fever → 2003-08-15
+✅ [313/1157] The Pact → 2012-05-25
+✅ [314/1157] Jigsaw → 2017-10-25
+✅ [315/1157] Alien Resurrection → 1997-11-12
+✅ [316/1157] The Purge: Election Year → 2016-06-29
+✅ [317/1157] Escape Room → 2019-01-03
+✅ [318/1157] House → 1985-12-06
+✅ [319/1157] Mimic → 1997-08-22
+✅ [320/1157] Nightbreed → 1990-02-16
+✅ [321/1157] The Village → 2004-07-30
+✅ [322/1157] Critters → 1986-04-11
+✅ [323/1157] The Town that Dreaded Sundown → 2014-10-16
+✅ [324/1157] Hatchet → 2006-04-27
+✅ [325/1157] A Nightmare on Elm Street 4: The Dream Master → 1988-08-19
+✅ [326/1157] Paranormal Activity 2 → 2010-10-20
+✅ [327/1157] Quarantine → 2008-10-10
+✅ [328/1157] Grave Encounters → 2011-09-09
+✅ [329/1157] Maniac → 2012-12-26
+✅ [330/1157] My Bloody Valentine → 1981-02-11
+✅ [331/1157] Halloween H20: 20 Years Later → 1998-08-05
+✅ [332/1157] The Dark Half → 1993-04-23
+✅ [333/1157] Saw III → 2006-10-26
+✅ [334/1157] Friday the 13th Part 2 → 1981-05-01
+✅ [335/1157] The Belko Experiment → 2016-03-17
+✅ [336/1157] Final Destination 2 → 2003-01-31
+✅ [337/1157] Circle → 2015-05-28
+✅ [338/1157] A Cure for Wellness → 2017-02-15
+✅ [339/1157] Mary Shelley's Frankenstein → 1994-11-04
+✅ [340/1157] Insidious: Chapter 2 → 2013-09-12
+✅ [341/1157] Jaws 2 → 1978-06-16
+✅ [342/1157] Resident Evil → 2002-03-15
+✅ [343/1157] Damien - Omen II → 1978-06-09
+✅ [344/1157] The Prodigy → 2019-02-06
+✅ [345/1157] April Fool's Day → 1986-03-27
+✅ [346/1157] Burnt Offerings → 1976-10-18
+✅ [347/1157] Final Destination 3 → 2006-02-09
+✅ [348/1157] Devil → 2010-09-16
+✅ [349/1157] Psycho III → 1986-04-02
+✅ [350/1157] Halloween III: Season of the Witch → 1982-10-22
+✅ [351/1157] The Slumber Party Massacre → 1982-09-10
+✅ [352/1157] Bride of Chucky → 1998-10-15
+✅ [353/1157] Return of the Living Dead III → 1993-10-01
+✅ [354/1157] The Texas Chainsaw Massacre 2 → 1986-08-22
+✅ [355/1157] Vampires → 1998-10-30
+✅ [356/1157] The First Purge → 2018-07-04
+✅ [357/1157] Insidious: The Last Key → 2018-01-03
+✅ [358/1157] Cooties → 2014-10-10
+✅ [359/1157] Scouts Guide to the Zombie Apocalypse → 2015-10-23
+✅ [360/1157] Wrong Turn → 2003-05-30
+✅ [361/1157] Child's Play 2 → 1990-11-09
+✅ [362/1157] The Collection → 2012-11-30
+✅ [363/1157] Zombeavers → 2014-10-20
+✅ [364/1157] Freddy vs. Jason → 2003-08-15
+✅ [365/1157] The Lords of Salem → 2013-04-18
+✅ [366/1157] Scream 3 → 2000-02-04
+✅ [367/1157] Chopping Mall → 1986-11-14
+✅ [368/1157] I Know What You Did Last Summer → 1997-10-17
+✅ [369/1157] Predator 2 → 1990-11-21
+✅ [370/1157] Tusk → 2014-09-19
+✅ [371/1157] The Ruins → 2008-04-02
+✅ [372/1157] Saw VI → 2009-10-22
+✅ [373/1157] Hostel: Part II → 2007-06-07
+✅ [374/1157] Terror Train → 1980-10-03
+✅ [375/1157] Creepshow 2 → 1987-05-01
+✅ [376/1157] Halloween 4: The Return of Michael Myers → 1988-10-21
+✅ [377/1157] Poltergeist II: The Other Side → 1986-05-23
+✅ [378/1157] Hellraiser III: Hell on Earth → 1992-09-11
+✅ [379/1157] Jennifer's Body → 2009-09-18
+✅ [380/1157] Friday the 13th: The Final Chapter → 1984-04-13
+✅ [381/1157] The Collector → 2009-07-09
+✅ [382/1157] The Predator → 2018-09-05
+✅ [383/1157] Prom Night → 1980-07-18
+✅ [384/1157] The Strangers: Prey at Night → 2018-03-07
+✅ [385/1157] Blade: Trinity → 2004-12-08
+✅ [386/1157] C.H.U.D. → 1984-08-31
+✅ [387/1157] Species → 1995-07-07
+✅ [388/1157] Idle Hands → 1999-04-30
+✅ [389/1157] Saw IV → 2007-10-25
+✅ [390/1157] Dead Silence → 2007-03-16
+✅ [391/1157] Wishmaster → 1997-09-19
+✅ [392/1157] The Boy → 2016-01-22
+✅ [393/1157] Hell Fest → 2018-09-27
+✅ [394/1157] The Nun → 2018-09-05
+✅ [395/1157] Hannibal Rising → 2007-02-06
+✅ [396/1157] A Nightmare on Elm Street: The Dream Child → 1989-08-11
+✅ [397/1157] Silent Night, Deadly Night → 1984-11-09
+✅ [398/1157] Blair Witch → 2016-09-15
+✅ [399/1157] Slumber Party Massacre III → 1990-09-07
+✅ [400/1157] Shocker → 1989-03-23
+✅ [401/1157] The Green Inferno → 2013-09-08
+✅ [402/1157] House on Haunted Hill → 1999-10-29
+✅ [403/1157] Jeepers Creepers 2 → 2003-08-08
+✅ [404/1157] Knock Knock → 2015-06-26
+✅ [405/1157] Return of the Living Dead Part II → 1988-01-15
+✅ [406/1157] Annabelle → 2014-10-01
+✅ [407/1157] Sphere → 1998-02-13
+✅ [408/1157] Thir13en Ghosts → 2001-10-26
+✅ [409/1157] Urban Legend → 1998-09-25
+✅ [410/1157] The ABCs of Death → 2013-03-08
+✅ [411/1157] Friday the 13th Part III → 1982-08-13
+✅ [412/1157] The Human Centipede (First Sequence) → 2009-10-31
+✅ [413/1157] Saw V → 2008-10-23
+✅ [414/1157] AVP: Alien vs. Predator → 2004-08-12
+✅ [415/1157] The Final Destination → 2009-08-26
+✅ [416/1157] Leatherface → 2017-09-14
+✅ [417/1157] Pet Sematary II → 1992-08-28
+✅ [418/1157] The Fly II → 1989-02-10
+✅ [419/1157] Freddy's Dead: The Final Nightmare → 1991-09-05
+✅ [420/1157] Paranormal Activity 4 → 2012-10-17
+✅ [421/1157] Leprechaun → 1993-01-08
+✅ [422/1157] Child's Play 3 → 1991-08-30
+✅ [423/1157] Friday the 13th Part VII: The New Blood → 1988-05-13
+✅ [424/1157] The Grudge 2 → 2006-10-12
+✅ [425/1157] Ghost Ship → 2002-10-25
+✅ [426/1157] Halloween 5: The Revenge of Michael Myers → 1989-10-12
+✅ [427/1157] The Hills Have Eyes 2 → 2007-03-22
+✅ [428/1157] Texas Chainsaw 3D → 2013-01-03
+✅ [429/1157] Saw 3D → 2010-10-22
+✅ [430/1157] Poltergeist III → 1988-06-10
+✅ [431/1157] Sinister 2 → 2015-08-19
+✅ [432/1157] Fright Night 2: New Blood → 2013-08-31
+✅ [433/1157] V/H/S: Viral → 2014-11-21
+✅ [434/1157] The Happening → 2008-06-11
+✅ [435/1157] Exorcist: The Beginning → 2004-08-20
+✅ [436/1157] One Missed Call → 2008-01-04
+✅ [437/1157] Truth or Dare → 2018-04-12
+✅ [438/1157] The Purge → 2013-05-31
+✅ [439/1157] As Above, So Below → 2014-08-14
+✅ [440/1157] Would You Rather → 2013-02-08
+✅ [441/1157] The Texas Chainsaw Massacre: The Beginning → 2006-10-05
+✅ [442/1157] The Cloverfield Paradox → 2018-02-04
+✅ [443/1157] Rings → 2017-02-01
+✅ [444/1157] Halloween: Resurrection → 2002-07-01
+✅ [445/1157] Jaws 3-D → 1983-07-22
+✅ [446/1157] Slender Man → 2018-05-17
+✅ [447/1157] FearDotCom → 2002-08-09
+✅ [448/1157] Creepshow 3 → 2006-04-24
+✅ [449/1157] Hellraiser: Revelations → 2011-10-18
+✅ [450/1157] The Human Centipede 3 (Final Sequence) → 2015-05-22
+✅ [451/1157] Jaws: The Revenge → 1987-07-17
+✅ [452/1157] What Ever Happened to Baby Jane? → 1962-10-31
+✅ [453/1157] Nosferatu the Vampyre → 1979-01-17
+✅ [454/1157] Night of the Demon → 1957-11-09
+✅ [455/1157] Onibaba → 1964-11-21
+✅ [456/1157] Dracula → 1958-04-21
+✅ [457/1157] Braindead → 1992-08-13
+✅ [458/1157] Beach House → 1977-10-27
+✅ [459/1157] Battle Beyond the Stars → 1980-09-08
+✅ [460/1157] Dead of Night → 1974-08-29
+✅ [461/1157] Phantasm → 1979-03-28
+✅ [462/1157] Hour of the Wolf → 1968-02-19
+✅ [463/1157] Ganja & Hess → 1973-04-20
+✅ [464/1157] Bedlam → 1946-05-10
+✅ [465/1157] The Unknown → 1927-05-29
+✅ [466/1157] The Serpent and the Rainbow → 1988-02-05
+✅ [467/1157] The Man Who Laughs → 1928-11-04
+✅ [468/1157] Kuroneko → 1968-02-24
+✅ [469/1157] Grindhouse → 2007-04-06
+✅ [470/1157] The Loved Ones → 2010-08-04
+✅ [471/1157] Night of the Comet → 1984-11-16
+✅ [472/1157] Dr. Jekyll and Mr. Hyde → 1931-12-24
+✅ [473/1157] Starry Eyes → 2014-07-29
+✅ [474/1157] Rear Window → 1954-08-01
+✅ [475/1157] Little Shop of Horrors → 1986-12-19
+✅ [476/1157] Creep → 2004-08-10
+✅ [477/1157] Santa Sangre → 1989-11-24
+✅ [478/1157] Dead & Buried → 1981-05-29
+✅ [479/1157] God Told Me To → 1976-10-22
+✅ [480/1157] The men around Lucie → 1931-11-03
+✅ [481/1157] Bug → 2007-02-21
+✅ [482/1157] Un Chien Andalou → 1929-06-05
+✅ [483/1157] Brotherhood of the Wolf → 2001-01-31
+✅ [484/1157] Theatre of Blood → 1973-03-16
+✅ [485/1157] What Lies Beneath → 2000-07-21
+✅ [486/1157] The Fearless Vampire Killers → 1967-11-13
+✅ [487/1157] Angst → 1983-01-01
+✅ [488/1157] Alice, Sweet Alice → 1976-11-13
+✅ [489/1157] Rope → 1948-02-01
+✅ [490/1157] Viy → 1967-11-27
+✅ [491/1157] Sweeney Todd: The Demon Barber of Fleet Street → 2007-12-21
+✅ [492/1157] Altered States → 1980-12-25
+✅ [493/1157] Dog Soldiers → 2002-05-10
+✅ [494/1157] A Bay of Blood → 1971-09-08
+✅ [495/1157] Brain Damage → 1988-04-15
+✅ [496/1157] They Look Like People → 2016-02-26
+✅ [497/1157] The Curse of the Cat People → 1944-03-02
+✅ [498/1157] The 'Burbs → 1989-02-17
+✅ [499/1157] Tales from the Crypt → 1972-03-09
+✅ [500/1157] The Devil's Candy → 2016-12-15
+✅ [501/1157] Tetsuo: The Iron Man → 1989-07-01
+✅ [502/1157] Children of the Corn → 1984-03-09
+✅ [503/1157] Frankenweenie → 2012-10-04
+✅ [504/1157] Suicide Club → 2001-10-29
+✅ [505/1157] The Addiction → 1995-10-06
+✅ [506/1157] Kill, Baby... Kill! → 1966-07-08
+✅ [507/1157] The Living Dead at Manchester Morgue → 1974-11-28
+✅ [508/1157] The Hunger → 1983-04-29
+✅ [509/1157] Shivers → 1975-05-16
+✅ [510/1157] Deathgasm → 2015-08-28
+✅ [511/1157] Night of the Eagle → 1962-04-25
+✅ [512/1157] Trilogy of Terror → 1975-03-04
+✅ [513/1157] Basket Case → 1982-04-02
+✅ [514/1157] The Texas Chainsaw Massacre → 2003-05-21
+✅ [515/1157] 1408 → 2007-06-22
+✅ [516/1157] ParaNorman → 2012-08-03
+✅ [517/1157] Better Watch Out → 2017-10-06
+✅ [518/1157] A Bucket of Blood → 1959-10-21
+✅ [519/1157] Dark Water → 2002-01-19
+✅ [520/1157] A Dark Song → 2016-07-08
+✅ [521/1157] Room 237 → 2012-10-26
+✅ [522/1157] Phantom of the Opera → 1943-08-12
+✅ [523/1157] The Tingler → 1959-07-29
+✅ [524/1157] Hell House LLC → 2015-10-16
+✅ [525/1157] Berberian Sound Studio → 2012-08-30
+✅ [526/1157] Daughters of Darkness → 1971-05-28
+✅ [527/1157] Eden Lake → 2008-09-12
+✅ [528/1157] The Stuff → 1985-06-14
+✅ [529/1157] Hard Candy → 2005-01-14
+✅ [530/1157] Warm Bodies → 2013-01-31
+✅ [531/1157] The Burning → 1981-05-08
+✅ [532/1157] Prometheus → 2012-05-30
+✅ [533/1157] Inferno → 1980-02-07
+✅ [534/1157] Unsane → 2018-03-22
+✅ [535/1157] The Brides of Dracula → 1960-06-15
+✅ [536/1157] Red Eye → 2005-08-10
+✅ [537/1157] New Nightmare → 1994-10-13
+✅ [538/1157] Asylum → 1972-11-17
+✅ [539/1157] Race with the Devil → 1975-06-01
+✅ [540/1157] Phenomena → 1985-01-25
+✅ [541/1157] 1922 → 2017-10-20
+✅ [542/1157] Stir of Echoes → 1999-09-10
+✅ [543/1157] Alucarda → 1977-12-26
+✅ [544/1157] Last Shift → 2014-10-25
+✅ [545/1157] The Clovehitch Killer → 2018-11-16
+✅ [546/1157] I Am Not a Serial Killer → 2016-08-26
+✅ [547/1157] Ouija: Origin of Evil → 2016-10-20
+✅ [548/1157] Happy Death Day 2U → 2019-02-13
+✅ [549/1157] Gremlins 2: The New Batch → 1990-06-15
+✅ [550/1157] The Voices → 2014-01-19
+✅ [551/1157] The Blood on Satan's Claw → 1971-01-28
+✅ [552/1157] Alien: Covenant → 2017-05-09
+✅ [553/1157] Byzantium → 2013-04-11
+✅ [554/1157] Wyrmwood: Road of the Dead → 2014-09-19
+✅ [555/1157] Land of the Dead → 2005-06-18
+✅ [556/1157] Werewolf of London → 1935-05-13
+✅ [557/1157] Southbound → 2015-09-17
+✅ [558/1157] Black Sheep → 2006-09-10
+✅ [559/1157] Curse of Chucky → 2013-10-08
+✅ [560/1157] Bird Box → 2018-12-13
+✅ [561/1157] Frankenhooker → 1990-06-01
+✅ [562/1157] The Void → 2016-11-08
+✅ [563/1157] The Crazies → 2010-02-26
+✅ [564/1157] Tales from the Hood → 1995-05-24
+✅ [565/1157] Cult of Chucky → 2017-10-12
+✅ [566/1157] Dagon → 2001-10-12
+✅ [567/1157] Motel Hell → 1980-08-14
+✅ [568/1157] Piranha → 1978-08-03
+✅ [569/1157] V/H/S/2 → 2013-06-06
+✅ [570/1157] Pumpkinhead → 1988-06-09
+✅ [571/1157] Absentia → 2011-03-03
+✅ [572/1157] The Craft → 1996-05-03
+✅ [573/1157] The Curse of the Werewolf → 1961-05-01
+✅ [574/1157] Splinter → 2006-08-17
+✅ [575/1157] Puppet Master: The Littlest Reich → 2018-08-17
+✅ [576/1157] The Dentist → 1996-06-07
+✅ [577/1157] Deep Blue Sea → 1999-07-28
+✅ [578/1157] Crawl → 2019-07-10
+✅ [579/1157] Ready or Not → 2019-08-21
+✅ [580/1157] Doctor Sleep → 2019-10-30
+✅ [581/1157] The Lighthouse → 2019-10-18
+✅ [582/1157] Color Out of Space → 2020-01-24
+✅ [583/1157] The Platform → 2019-11-08
+✅ [584/1157] Host → 2020-12-04
+✅ [585/1157] His House → 2020-01-27
+✅ [586/1157] Possessor → 2020-10-02
+✅ [587/1157] Relic → 2020-07-03
+✅ [588/1157] Saint Maud → 2020-10-09
+✅ [589/1157] Freaky → 2020-11-12
+✅ [590/1157] The Night House → 2021-07-15
+✅ [591/1157] Malignant → 2021-09-01
+✅ [592/1157] Last Night in Soho → 2021-10-21
+✅ [593/1157] A Quiet Place Part II → 2021-05-21
+✅ [594/1157] Fear Street: 1994 → 2021-06-28
+✅ [595/1157] The Medium → 2021-07-14
+✅ [596/1157] Old → 2021-07-21
+✅ [597/1157] Titane → 2021-07-14
+✅ [598/1157] Antlers → 2021-10-28
+✅ [599/1157] Halloween Kills → 2021-10-14
+✅ [600/1157] X → 2022-03-17
+✅ [601/1157] The Black Phone → 2022-06-16
+✅ [602/1157] Nope → 2022-07-20
+✅ [603/1157] Barbarian → 2022-09-08
+✅ [604/1157] Pearl → 2022-09-16
+✅ [605/1157] Smile → 2022-09-23
+✅ [606/1157] Terrifier 2 → 2022-10-06
+✅ [607/1157] Bodies Bodies Bodies → 2022-08-05
+✅ [608/1157] Bones and All → 2022-11-18
+✅ [609/1157] Halloween Ends → 2022-10-12
+✅ [610/1157] M3GAN → 2022-12-28
+✅ [611/1157] Scream VI → 2023-03-08
+✅ [612/1157] Evil Dead Rise → 2023-04-12
+✅ [613/1157] Infinity Pool → 2023-01-27
+✅ [614/1157] Talk to Me → 2023-07-26
+✅ [615/1157] The Boogeyman → 2023-05-31
+✅ [616/1157] Insidious: The Red Door → 2023-07-05
+✅ [617/1157] No One Will Save You → 2023-09-21
+✅ [618/1157] When Evil Lurks → 2023-10-05
+✅ [619/1157] Thanksgiving → 2023-11-16
+✅ [620/1157] Five Nights at Freddy's → 2023-10-25
+✅ [621/1157] Saw X → 2023-09-27
+✅ [622/1157] The Nun II → 2023-09-06
+✅ [623/1157] The Exorcist: Believer → 2023-10-04
+✅ [624/1157] Cobweb → 2023-07-19
+✅ [625/1157] Totally Killer → 2023-09-28
+✅ [626/1157] Sister Death → 2023-10-05
+✅ [627/1157] It Lives Inside → 2023-09-06
+✅ [628/1157] The Mummy's Hand → 1940-09-20
+✅ [629/1157] The Ghost of Frankenstein → 1942-03-13
+✅ [630/1157] House of Frankenstein → 1944-12-15
+✅ [631/1157] House of Dracula → 1945-12-07
+✅ [632/1157] Abbott and Costello Meet the Mummy → 1955-04-16
+✅ [633/1157] Dracula's Daughter → 1936-05-11
+✅ [634/1157] Son of Dracula → 1943-10-20
+✅ [635/1157] Frankenstein Meets the Wolf Man → 1943-03-12
+✅ [636/1157] The Mummy's Curse → 1944-12-22
+✅ [637/1157] The Mummy's Ghost → 1944-06-30
+✅ [638/1157] 13 Ghosts → 1960-05-16
+✅ [639/1157] Them! → 1954-06-16
+✅ [640/1157] Invaders from Mars → 1953-04-09
+✅ [641/1157] I Married a Monster from Outer Space → 1958-10-01
+✅ [642/1157] The Quatermass Xperiment → 1955-09-26
+✅ [643/1157] Plan 9 from Outer Space → 1957-03-15
+✅ [644/1157] Night of the Lepus → 1972-10-04
+✅ [645/1157] Humanoids from the Deep → 1980-05-01
+✅ [646/1157] The Food of the Gods → 1976-06-18
+✅ [647/1157] Empire of the Ants → 1977-06-29
+✅ [648/1157] Frogs → 1972-03-10
+✅ [649/1157] Kingdom of the Spiders → 1977-08-24
+✅ [650/1157] Phase IV → 1974-09-13
+✅ [651/1157] Squirm → 1976-07-30
+✅ [652/1157] Grizzly → 1976-05-21
+✅ [653/1157] Orca → 1977-07-22
+✅ [654/1157] Prophecy → 1979-09-14
+✅ [655/1157] Alligator → 1980-11-14
+✅ [656/1157] Q → 1982-09-08
+✅ [657/1157] Razorback → 1984-04-19
+✅ [658/1157] Critters 2 → 1988-04-29
+✅ [659/1157] Critters 3 → 1991-12-11
+✅ [660/1157] Critters 4 → 1992-08-20
+✅ [661/1157] Troll → 1986-01-17
+✅ [662/1157] Troll 2 → 1990-10-12
+✅ [663/1157] Leprechaun 2 → 1994-04-08
+✅ [664/1157] Leprechaun 3 → 1995-06-27
+✅ [665/1157] Leprechaun 4: In Space → 1997-02-25
+✅ [666/1157] Leprechaun in the Hood → 2000-03-28
+✅ [667/1157] Leprechaun: Back 2 tha Hood → 2003-12-30
+✅ [668/1157] Leprechaun: Origins → 2014-08-22
+✅ [669/1157] Wishmaster 2: Evil Never Dies → 1999-03-12
+✅ [670/1157] Wishmaster 3: Beyond the Gates of Hell → 2001-10-23
+✅ [671/1157] Wishmaster 4: The Prophecy Fulfilled → 2002-06-10
+✅ [672/1157] Puppet Master → 1989-10-12
+✅ [673/1157] Puppet Master II → 1990-02-07
+✅ [674/1157] Puppet Master III → 1992-05-01
+✅ [675/1157] Puppet Master 4 → 1993-11-24
+✅ [676/1157] Puppet Master 5 → 1994-09-21
+✅ [677/1157] Curse of the Puppet Master → 1998-05-26
+✅ [678/1157] Retro Puppet Master → 1999-11-09
+✅ [679/1157] Puppet Master: The Legacy → 2003-12-16
+✅ [680/1157] Puppet Master vs Demonic Toys → 2004-12-18
+✅ [681/1157] Puppet Master: Axis of Evil → 2010-01-15
+✅ [682/1157] Puppet Master X: Axis Rising → 2012-09-15
+✅ [683/1157] Demonic Toys → 1992-03-12
+✅ [684/1157] Ghoulies II → 1987-07-31
+✅ [685/1157] Ghoulies III: Ghoulies Go to College → 1990-08-15
+✅ [686/1157] Ghoulies IV → 1994-08-17
+✅ [687/1157] Subspecies → 1991-08-08
+✅ [688/1157] Bloodstone: Subspecies II → 1993-04-20
+✅ [689/1157] Bloodlust: Subspecies III → 1994-02-16
+✅ [690/1157] Subspecies 4: Bloodstorm → 1998-12-08
+✅ [691/1157] From Dusk Till Dawn 2: Texas Blood Money → 1999-03-16
+✅ [692/1157] From Dusk Till Dawn 3: The Hangman's Daughter → 2000-01-18
+✅ [693/1157] Lost Boys: The Tribe → 2008-07-29
+✅ [694/1157] Lost Boys: The Thirst → 2010-05-12
+✅ [695/1157] Children of the Corn II: The Final Sacrifice → 1992-01-29
+✅ [696/1157] Children of the Corn III: Urban Harvest → 1995-09-12
+✅ [697/1157] Children of the Corn IV: The Gathering → 1996-10-08
+✅ [698/1157] Children of the Corn V: Fields of Terror → 1998-06-21
+✅ [699/1157] Children of the Corn 666: Isaac's Return → 1999-10-19
+✅ [700/1157] Children of the Corn: Revelation → 2001-10-09
+✅ [701/1157] Children of the Corn: Genesis → 2011-08-30
+✅ [702/1157] Children of the Corn: Runaway → 2018-03-13
+✅ [703/1157] Pumpkinhead II: Blood Wings → 1995-10-20
+✅ [704/1157] Pumpkinhead: Ashes to Ashes → 2006-10-28
+✅ [705/1157] Pumpkinhead: Blood Feud → 2007-02-05
+✅ [706/1157] Sometimes They Come Back → 1991-05-07
+✅ [707/1157] Sometimes They Come Back... Again → 1996-09-03
+✅ [708/1157] Sometimes They Come Back... for More → 1998-11-01
+✅ [709/1157] The Mangler → 1995-03-03
+✅ [710/1157] Thinner → 1996-10-25
+✅ [711/1157] Trucks → 1997-10-29
+✅ [712/1157] The Night Flier → 1997-04-30
+✅ [713/1157] Apt Pupil → 1998-10-23
+✅ [714/1157] The Rage: Carrie 2 → 1999-03-12
+✅ [715/1157] Hearts in Atlantis → 2001-09-28
+✅ [716/1157] Dreamcatcher → 2003-03-21
+✅ [717/1157] Secret Window → 2004-03-12
+✅ [718/1157] Riding the Bullet → 2004-10-15
+✅ [719/1157] A Good Marriage → 2014-10-03
+✅ [720/1157] Cell → 2016-07-06
+✅ [721/1157] The Dark Tower → 2017-08-03
+✅ [722/1157] It Chapter Two → 2019-09-04
+✅ [723/1157] In the Tall Grass → 2019-09-20
+✅ [724/1157] Standing at the Scratch Line → 2016-08-06
+✅ [725/1157] Firestarter → 2022-05-12
+✅ [726/1157] Mr. Harrigan's Phone → 2022-09-28
+✅ [727/1157] Howling II: Stirba - Werewolf Bitch → 1985-08-28
+✅ [728/1157] Howling III: The Marsupials → 1987-05-15
+✅ [729/1157] Howling IV: The Original Nightmare → 1988-11-01
+✅ [730/1157] Howling V: The Rebirth → 1989-05-01
+✅ [731/1157] Howling VI: The Freaks → 1991-04-18
+✅ [732/1157] The Howling: Reborn → 2011-10-18
+✅ [733/1157] An American Werewolf in Paris → 1997-05-29
+✅ [734/1157] Ginger Snaps 2: Unleashed → 2004-01-30
+✅ [735/1157] Ginger Snaps Back: The Beginning → 2004-07-10
+✅ [736/1157] Underworld: Evolution → 2006-01-12
+✅ [737/1157] Underworld: Rise of the Lycans → 2009-01-22
+✅ [738/1157] Underworld: Awakening → 2012-01-19
+✅ [739/1157] Underworld: Blood Wars → 2016-11-24
+✅ [740/1157] Resident Evil: Apocalypse → 2004-09-10
+✅ [741/1157] Resident Evil: Extinction → 2007-09-20
+✅ [742/1157] Resident Evil: Afterlife → 2010-09-01
+✅ [743/1157] Resident Evil: Retribution → 2012-09-12
+✅ [744/1157] Resident Evil: The Final Chapter → 2016-12-23
+✅ [745/1157] Resident Evil: Welcome to Raccoon City → 2021-11-24
+✅ [746/1157] Silent Hill: Revelation 3D → 2012-10-10
+✅ [747/1157] Paranormal Activity: The Marked Ones → 2014-01-01
+✅ [748/1157] Paranormal Activity: The Ghost Dimension → 2015-10-21
+✅ [749/1157] The Conjuring: The Devil Made Me Do It → 2021-05-25
+✅ [750/1157] Annabelle Comes Home → 2019-06-26
+✅ [751/1157] The Curse of La Llorona → 2019-04-17
+✅ [752/1157] Spiral → 2021-02-03
+✅ [753/1157] Wrong Turn 2: Dead End → 2007-08-25
+✅ [754/1157] Wrong Turn 3: Left for Dead → 2009-10-08
+✅ [755/1157] Wrong Turn 4: Bloody Beginnings → 2011-10-17
+✅ [756/1157] Wrong Turn 5: Bloodlines → 2012-10-18
+✅ [757/1157] Wrong Turn 6: Last Resort → 2014-08-22
+✅ [758/1157] Hatchet II → 2010-10-01
+✅ [759/1157] Hatchet III → 2013-06-14
+✅ [760/1157] Victor Crowley → 2017-09-12
+✅ [761/1157] Texas Chainsaw Massacre → 2022-02-18
+✅ [762/1157] Hellraiser: Bloodline → 1996-03-08
+✅ [763/1157] Hellraiser: Inferno → 2000-10-31
+✅ [764/1157] Hellraiser: Hellseeker → 2002-10-15
+✅ [765/1157] Hellraiser: Deader → 2005-06-07
+✅ [766/1157] Hellraiser: Hellworld → 2005-09-06
+✅ [767/1157] Hellraiser: Judgment → 2018-02-13
+✅ [768/1157] Seed of Chucky → 2004-11-12
+✅ [769/1157] Halloween: The Curse of Michael Myers → 1995-09-29
+✅ [770/1157] A Nightmare on Elm Street Part 2: Freddy's Revenge → 1985-11-01
+✅ [771/1157] Friday the 13th: A New Beginning → 1985-03-22
+✅ [772/1157] Friday the 13th Part VIII: Jason Takes Manhattan → 1989-07-28
+✅ [773/1157] Jason Goes to Hell: The Final Friday → 1993-08-13
+✅ [774/1157] Jason X → 2001-11-09
+✅ [775/1157] I Still Know What You Did Last Summer → 1998-11-13
+✅ [776/1157] I'll Always Know What You Did Last Summer → 2006-06-24
+✅ [777/1157] Urban Legends: Final Cut → 2000-09-22
+✅ [778/1157] Urban Legends: Bloody Mary → 2005-07-19
+✅ [779/1157] Jeepers Creepers 3 → 2017-09-26
+✅ [780/1157] Jeepers Creepers: Reborn → 2022-09-15
+✅ [781/1157] The Forever Purge → 2021-06-30
+✅ [782/1157] Escape Room: Tournament of Champions → 2021-07-01
+✅ [783/1157] Fantasy Island → 2020-02-12
+✅ [784/1157] Countdown → 2019-10-24
+✅ [785/1157] Wish Upon → 2017-07-07
+✅ [786/1157] The Bye Bye Man → 2017-01-12
+✅ [787/1157] The Gallows → 2015-07-09
+✅ [788/1157] The Gallows Act II → 2019-10-25
+✅ [789/1157] Ouija → 2014-10-24
+✅ [790/1157] The Ring Two → 2005-03-10
+✅ [791/1157] The Grudge 3 → 2009-05-12
+✅ [792/1157] The Grudge → 2019-12-31
+✅ [793/1157] Shutter → 2008-03-21
+✅ [794/1157] The Eye → 2008-02-01
+✅ [795/1157] Mirrors → 2008-08-14
+✅ [796/1157] When a Stranger Calls → 2006-02-03
+✅ [797/1157] My Bloody Valentine → 2009-01-16
+✅ [798/1157] Sorority Row → 2009-09-09
+✅ [799/1157] I Spit on Your Grave → 2010-06-17
+✅ [800/1157] Piranha 3D → 2010-08-20
+✅ [801/1157] Piranha 3DD → 2012-05-11
+✅ [802/1157] Salem's Lot → 2024-10-03
+✅ [803/1157] Exorcist II: The Heretic → 1977-06-17
+✅ [804/1157] Dominion: Prequel to The Exorcist → 2005-05-20
+✅ [805/1157] The Final Conflict → 1981-03-20
+✅ [806/1157] Omen IV: The Awakening → 1991-07-19
+✅ [807/1157] The First Omen → 2024-04-03
+✅ [808/1157] Amityville II: The Possession → 1982-09-24
+✅ [809/1157] Amityville 3-D → 1983-11-18
+✅ [810/1157] Amityville: The Evil Escapes → 1989-05-12
+✅ [811/1157] Amityville 1992: It's About Time → 1992-07-16
+✅ [812/1157] Amityville: A New Generation → 1993-09-29
+✅ [813/1157] Amityville: Dollhouse → 1996-10-02
+✅ [814/1157] Amityville: The Awakening → 2017-06-30
+✅ [815/1157] Candyman: Farewell to the Flesh → 1995-03-17
+✅ [816/1157] Candyman: Day of the Dead → 1999-07-09
+✅ [817/1157] Species II → 1998-04-10
+✅ [818/1157] Species III → 2005-01-14
+✅ [819/1157] Species: The Awakening → 2007-10-17
+✅ [820/1157] Blade II → 2002-03-22
+✅ [821/1157] 30 Days of Night: Dark Days → 2010-10-04
+✅ [822/1157] Fright Night Part 2 → 1988-04-07
+✅ [823/1157] Queen of the Damned → 2002-02-10
+✅ [824/1157] Dracula 2000 → 2000-12-22
+✅ [825/1157] Dracula II: Ascension → 2003-06-07
+✅ [826/1157] Dracula III: Legacy → 2005-07-12
+✅ [827/1157] Van Helsing → 2004-05-03
+✅ [828/1157] Dracula Untold → 2014-10-01
+✅ [829/1157] The Mummy Returns → 2001-05-04
+✅ [830/1157] The Mummy: Tomb of the Dragon Emperor → 2008-07-01
+✅ [831/1157] The Wolfman → 2010-02-10
+✅ [832/1157] Victor Frankenstein → 2015-11-10
+✅ [833/1157] I, Frankenstein → 2014-01-22
+✅ [834/1157] Ghostbusters → 1984-06-08
+✅ [835/1157] Ghostbusters II → 1989-06-16
+✅ [836/1157] Ghostbusters: Afterlife → 2021-11-18
+✅ [837/1157] Ghostbusters: Frozen Empire → 2024-03-20
+✅ [838/1157] The Addams Family → 1991-11-22
+✅ [839/1157] Addams Family Values → 1993-11-19
+✅ [840/1157] The Addams Family 2 → 2021-10-01
+✅ [841/1157] Wednesday's Child → 2022-07-08
+✅ [842/1157] Hotel Transylvania → 2012-09-20
+✅ [843/1157] Hotel Transylvania 2 → 2015-09-21
+✅ [844/1157] Hotel Transylvania 3: Summer Vacation → 2018-06-28
+✅ [845/1157] Hotel Transylvania: Transformania → 2022-01-31
+✅ [846/1157] Scary Movie → 2000-07-07
+✅ [847/1157] Scary Movie 2 → 2001-07-04
+✅ [848/1157] Scary Movie 3 → 2003-10-24
+✅ [849/1157] Scary Movie 4 → 2006-04-12
+✅ [850/1157] Scary Movie 5 → 2013-04-11
+✅ [851/1157] A Haunted House → 2013-01-11
+✅ [852/1157] A Haunted House 2 → 2014-04-17
+✅ [853/1157] The Haunted Mansion → 2003-11-26
+✅ [854/1157] Haunted Mansion → 2023-07-26
+✅ [855/1157] Goosebumps 2: Haunted Halloween → 2018-10-11
+✅ [856/1157] Mostly Ghostly → 2008-09-30
+✅ [857/1157] Monster High: New Ghoul at School → 2010-10-31
+✅ [858/1157] The House with a Clock in Its Walls → 2018-09-15
+✅ [859/1157] Hubie Halloween → 2020-10-07
+✅ [860/1157] Wendell & Wild → 2022-10-21
+✅ [861/1157] Renfield → 2023-04-07
+✅ [862/1157] Abigail → 2024-04-16
+✅ [863/1157] A Quiet Place: Day One → 2024-06-26
+✅ [864/1157] Longlegs → 2024-07-10
+✅ [865/1157] Alien: Romulus → 2024-08-13
+✅ [866/1157] MaXXXine → 2024-07-04
+✅ [867/1157] The Watchers → 2024-06-06
+✅ [868/1157] Immaculate → 2024-03-20
+✅ [869/1157] Late Night with the Devil → 2024-03-19
+✅ [870/1157] Lisa Frankenstein → 2024-02-07
+✅ [871/1157] Night Swim → 2024-01-03
+✅ [872/1157] Imaginary → 2024-03-06
+✅ [873/1157] The Strangers: Chapter 1 → 2024-05-15
+✅ [874/1157] Tarot → 2024-05-01
+✅ [875/1157] In a Violent Nature → 2024-05-31
+✅ [876/1157] Trap → 2024-07-31
+✅ [877/1157] Smile 2 → 2024-10-16
+✅ [878/1157] Terrifier 3 → 2024-10-09
+✅ [879/1157] Beetlejuice Beetlejuice → 2024-09-04
+✅ [880/1157] The Substance → 2024-09-07
+✅ [881/1157] Oddity → 2024-07-19
+✅ [882/1157] Cuckoo → 2024-02-16
+✅ [883/1157] Strange Darling → 2024-08-14
+✅ [884/1157] I Saw the TV Glow → 2024-05-03
+✅ [885/1157] The People's Joker → 2024-04-05
+✅ [886/1157] Love Lies Bleeding → 2024-03-07
+✅ [887/1157] Monkey Man → 2024-04-03
+✅ [888/1157] Civil War → 2024-04-10
+✅ [889/1157] Furiosa: A Mad Max Saga → 2024-05-22
+✅ [890/1157] Kingdom of the Planet of the Apes → 2024-05-08
+✅ [891/1157] Godzilla x Kong: The New Empire → 2024-03-27
+✅ [892/1157] Dune: Part Two → 2024-02-27
+✅ [893/1157] Deadpool & Wolverine → 2024-07-24
+✅ [894/1157] The Crow → 1994-05-11
+✅ [895/1157] The Ministry of Ungentlemanly Warfare → 2024-04-18
+✅ [896/1157] Rebel Moon - Part Two: The Scargiver → 2024-04-19
+✅ [897/1157] Damsel → 2024-03-07
+✅ [898/1157] Argylle → 2024-01-31
+✅ [899/1157] Bad Boys: Ride or Die → 2024-06-05
+✅ [900/1157] Atlas → 2024-05-23
+✅ [901/1157] 28 Years Later → 2025-06-18
+✅ [902/1157] 213 Bones → 2025-08-24
+✅ [903/1157] 825 Forest Road → 2025-04-24
+✅ [904/1157] Abraham's Boys: A Dracula Story → 2025-07-11
+✅ [905/1157] Alpha → 2025-08-20
+✅ [906/1157] Amityville VR → 2025-02-01
+✅ [907/1157] Anaconda → 2025-12-24
+✅ [908/1157] Appofeniacs → 2025-08-22
+✅ [909/1157] Ash → 2025-03-20
+✅ [910/1157] Attack 13 → 2025-06-13
+✅ [911/1157] Bambi: The Reckoning → 2025-07-11
+✅ [912/1157] Beast of War → 2025-08-22
+✅ [913/1157] Beheading → 2025-01-09
+✅ [914/1157] Black Phone 2 → 2025-10-15
+✅ [915/1157] Bloat → 2025-03-07
+✅ [916/1157] Bone Face → 2025-01-21
+✅ [917/1157] Bone Lake → 2025-10-02
+✅ [918/1157] Borderline → 2025-03-14
+✅ [919/1157] Borley Rectory: The Awakening → 2025-10-07
+✅ [920/1157] Bring Her Back → 2025-05-28
+✅ [921/1157] Chainsaw Man - The Movie: Reze Arc → 2025-09-19
+✅ [922/1157] Chhorii 2 → 2025-04-11
+✅ [923/1157] Clown in a Cornfield → 2025-05-08
+✅ [924/1157] Companion → 2025-01-22
+✅ [925/1157] Coyotes → 2025-10-02
+✅ [926/1157] Dangerous Animals → 2025-06-05
+✅ [927/1157] Dark Nuns → 2025-01-24
+✅ [928/1157] Death of a Unicorn → 2025-03-27
+✅ [929/1157] Deathstalker → 2025-10-10
+✅ [930/1157] Deemak → 2025-06-06
+✅ [931/1157] Demon Slayer: Kimetsu no Yaiba Infinity Castle → 2025-07-18
+✅ [932/1157] Demon Spawn → 2025-02-14
+✅ [933/1157] Descendent → 2025-08-08
+✅ [934/1157] Destroy This Tape → 2025-11-07
+✅ [935/1157] Die'ced: Reloaded → 2025-08-08
+✅ [936/1157] Disforia → 2025-09-20
+✅ [937/1157] Dollhouse → 2025-10-31
+✅ [938/1157] Dolly → 2025-09-21
+✅ [939/1157] Dorothea → 2025-10-31
+✅ [940/1157] Dracula → 2025-07-30
+✅ [941/1157] Drop → 2025-04-10
+✅ [942/1157] Dust Bunny → 2025-12-11
+✅ [943/1157] Exit 8 → 2025-08-28
+✅ [944/1157] Eye for an Eye 2 → 2024-07-21
+✅ [945/1157] Fear Below → 2025-05-02
+✅ [946/1157] Fear Street: Prom Queen → 2025-05-23
+✅ [947/1157] Final Destination Bloodlines → 2025-05-14
+✅ [948/1157] Five Nights at Freddy's 2 → 2025-12-03
+✅ [949/1157] Flush → 2025-11-22
+✅ [950/1157] Forgive Us All → 2025-05-08
+✅ [951/1157] For Sale By Exorcist → 2024-10-19
+✅ [952/1157] Frankenstein → 2025-10-17
+✅ [953/1157] Garden of Eden → 2025-06-20
+✅ [954/1157] Ghost Train → 2025-07-09
+✅ [955/1157] Good Boy → 2025-10-01
+✅ [956/1157] Halabala → 2025-04-03
+✅ [957/1157] Hallow Road → 2025-04-16
+✅ [958/1157] Haunted House of Pancakes → 2025-03-22
+✅ [959/1157] Haunting of Mount Gede → 2025-02-06
+✅ [960/1157] Heart Eyes → 2025-02-06
+✅ [961/1157] Hellcat → 2025-07-25
+✅ [962/1157] Hell House LLC: Lineage → 2025-08-22
+✅ [963/1157] Hidden in the Dark → 2025-03-14
+✅ [964/1157] HIM → 2025-09-18
+✅ [965/1157] Hold the Fort → 2025-11-29
+✅ [966/1157] Holy Ghost → 2025-08-11
+✅ [967/1157] Holy Night: Demon Hunters → 2025-04-30
+✅ [968/1157] Home Sweet Home: Rebirth → 2025-03-20
+✅ [969/1157] House on Eden → 2025-07-25
+✅ [970/1157] I Am Frankelda → 2025-10-23
+✅ [971/1157] Ick → 2025-07-27
+✅ [972/1157] In Our Blood → 2025-10-24
+✅ [973/1157] Incarnation → 2025-07-17
+✅ [974/1157] Influencers → 2025-07-26
+✅ [975/1157] Inthralled → 2025-10-07
+✅ [976/1157] Into the Deep → 2025-01-23
+✅ [977/1157] Isolated → 2025-04-30
+✅ [978/1157] It Ends → 2025-03-07
+✅ [979/1157] It Feeds → 2025-04-17
+✅ [980/1157] Jalan Pulang → 2025-06-19
+✅ [981/1157] Jeongbu → 2025-09-24
+✅ [982/1157] JUJUTSU KAISEN: Execution → 2025-11-07
+✅ [983/1157] Keeper → 2025-11-12
+✅ [984/1157] Killing Faith → 2025-10-03
+✅ [985/1157] Kraken → 2025-04-17
+✅ [986/1157] Lilim → 2025-03-12
+✅ [987/1157] Locked → 2025-03-20
+✅ [988/1157] Maa → 2025-06-20
+✅ [989/1157] Mad of Madness → 2025-05-22
+✅ [990/1157] Mannequin Wedding → 2025-03-20
+✅ [991/1157] Mārama → 2025-09-08
+✅ [992/1157] Match → 2025-10-03
+✅ [993/1157] M3GAN 2.0 → 2025-06-25
+✅ [994/1157] Meat Kills → 2025-09-24
+✅ [995/1157] Mononoke the Movie: Chapter II - The Ashes of Rage → 2025-03-14
+✅ [996/1157] Mother of Flies → 2025-07-24
+✅ [997/1157] Mouse of Horrors → 2025-01-25
+✅ [998/1157] Mouseboat Massacre → 2025-05-09
+✅ [999/1157] My Daughter is a Zombie → 2025-07-30
+✅ [1000/1157] Near Death → 2025-10-29
+✅ [1001/1157] Night of the Reaper → 2025-10-30
+✅ [1002/1157] Night Patrol → 2026-01-16
+✅ [1003/1157] No Tears in Hell → 2025-10-29
+✅ [1004/1157] Noise → 2025-03-07
+✅ [1005/1157] Opus → 2025-03-13
+✅ [1006/1157] P77 → 2025-07-30
+✅ [1007/1157] Peter Pan's Neverland Nightmare → 2025-01-13
+✅ [1008/1157] Pig Hill → 2025-08-23
+✅ [1009/1157] Popeye the Slayer Man → 2025-03-21
+✅ [1010/1157] Popeye's Revenge → 2025-02-12
+✅ [1011/1157] Posthouse → 2025-08-20
+✅ [1012/1157] Predator: Badlands → 2025-11-05
+✅ [1013/1157] Predator: Killer of Killers → 2025-06-05
+✅ [1014/1157] Primate → 2026-01-01
+✅ [1015/1157] Primitive War → 2025-08-21
+✅ [1016/1157] Project MKHEXE → 2025-04-28
+✅ [1017/1157] Punku → 2025-02-15
+✅ [1018/1157] Pursued → 2023-03-25
+✅ [1019/1157] The Unholy 2 → 2025-03-31
+✅ [1020/1157] Queens of the Dead → 2025-10-24
+✅ [1021/1157] R.L. Stine's Pumpkinhead → 2025-10-17
+✅ [1022/1157] Rabbit Trap → 2025-09-12
+✅ [1023/1157] Redux Redux → 2025-03-08
+✅ [1024/1157] Revelations → 2025-01-10
+✅ [1025/1157] Rob1n → 2025-03-20
+✅ [1026/1157] Rosario → 2025-05-01
+✅ [1027/1157] Round the Decay → 2025-01-31
+✅ [1028/1157] Sardaarji 3 → 2025-06-27
+✅ [1029/1157] Savage Hunt → 2025-08-28
+✅ [1030/1157] Screamboat → 2025-03-20
+✅ [1031/1157] Shadow of God → 2025-03-26
+✅ [1032/1157] Shake, Rattle & Roll: Evil Origins → 2025-12-25
+✅ [1033/1157] Shelby Oaks → 2025-10-02
+✅ [1034/1157] Shiver Me Timbers → 2025-03-20
+✅ [1035/1157] Silent Zone → 2025-03-07
+✅ [1036/1157] Singsot: Siulan Kematian → 2025-03-13
+✅ [1037/1157] Sinners → 2025-04-16
+✅ [1038/1157] Site → 2025-08-08
+✅ [1039/1157] Skillhouse → 2025-07-11
+✅ [1040/1157] Stay → 2025-10-07
+✅ [1041/1157] Stigmatized Properties: Possession → 2025-07-25
+✅ [1042/1157] Sugar Mill → 2025-03-31
+✅ [1043/1157] The Astronaut → 2025-09-26
+✅ [1044/1157] The Baby in the Basket → 2025-02-17
+✅ [1045/1157] The Bhootnii → 2025-05-01
+✅ [1046/1157] The Caretaker → 2025-10-03
+✅ [1047/1157] The Caretakers → 2025-02-26
+✅ [1048/1157] The Carpenter's Son → 2025-11-13
+✅ [1049/1157] The Conjuring: Last Rites → 2025-09-03
+✅ [1050/1157] Captain Hook: The Cursed Tides → 2025-07-11
+✅ [1051/1157] The Death of Snow White → 2025-05-02
+✅ [1052/1157] The Decedent → 2025-11-07
+✅ [1053/1157] The Demon's Bride → 2025-01-29
+✅ [1054/1157] The Drowned → 2023-10-27
+✅ [1055/1157] The Elixir → 2025-10-22
+✅ [1056/1157] The Fetus → 2025-03-07
+✅ [1057/1157] The Ghost Game → 2025-08-06
+✅ [1058/1157] The Gorge → 2025-02-13
+✅ [1059/1157] The Grieving → 2026-01-22
+✅ [1060/1157] The Grove → 2025-04-04
+✅ [1061/1157] The Hand That Rocks the Cradle → 2025-10-16
+✅ [1062/1157] The Healing → 2022-12-01
+✅ [1063/1157] The Hem → 2025-10-01
+✅ [1064/1157] The Home → 2025-07-24
+✅ [1065/1157] The Housemaid → 2025-12-18
+✅ [1066/1157] The Last 7 Days → 2025-01-23
+✅ [1067/1157] The Last Cabin → 2025-04-29
+✅ [1068/1157] The Long Walk → 2025-09-10
+✅ [1069/1157] The Man in My Basement → 2025-09-12
+✅ [1070/1157] The Monkey → 2025-02-14
+✅ [1071/1157] Edgar Allan Poe's The Oval Portrait → 2025-10-10
+✅ [1072/1157] The Parenting → 2025-03-12
+✅ [1073/1157] The Red Mask → 2025-08-23
+✅ [1074/1157] The Sticks → 2025-05-16
+✅ [1075/1157] The Strangers: Chapter 2 → 2025-09-25
+✅ [1076/1157] The Surrender → 2025-11-06
+✅ [1077/1157] undertone → 2026-03-13
+✅ [1078/1157] The Ugly Stepsister → 2025-03-07
+✅ [1079/1157] The Vile → 2025-10-30
+✅ [1080/1157] The Virgin of the Quarry Lake → 2025-10-30
+✅ [1081/1157] The Woman in Cabin 10 → 2025-10-09
+✅ [1082/1157] The Woman in the Yard → 2025-03-27
+✅ [1083/1157] Together → 2025-07-28
+✅ [1084/1157] Until Dawn → 2025-04-23
+✅ [1085/1157] Uncontained → 2025-03-11
+✅ [1086/1157] Untold → 2025-04-30
+✅ [1087/1157] V/H/S/Halloween → 2025-09-19
+✅ [1088/1157] Vash Level 2 → 2025-08-27
+✅ [1089/1157] Vicious → 2025-09-19
+✅ [1090/1157] War of the Worlds → 2025-07-29
+✅ [1091/1157] We Bury the Dead → 2026-01-01
+✅ [1092/1157] Weapons → 2025-08-04
+✅ [1093/1157] Welcome Home Baby → 2025-10-03
+✅ [1094/1157] Werewolf Game → 2025-01-21
+✅ [1095/1157] Whistle → 2026-02-05
+✅ [1096/1157] Wolf Man → 2025-01-15
+✅ [1097/1157] Womb → 2025-06-06
+✅ [1098/1157] Your Host → 2025-10-09
+✅ [1099/1157] Ziam → 2025-07-08
+✅ [1100/1157] Eight II → 2026-01-07
+✅ [1101/1157] The Basement → 2026-01-07
+✅ [1102/1157] Dead Village → 2026-01-07
+✅ [1103/1157] Suit & Tied Execution → 2026-01-08
+✅ [1104/1157] Who's Thirsty → 2026-01-08
+✅ [1105/1157] Malam 3 Yasinan → 2026-01-08
+✅ [1106/1157] Water Rites → 2026-01-08
+✅ [1107/1157] The Rajasaab → 2026-01-08
+✅ [1108/1157] Where Have You Gone, Girl? → 2026-01-09
+✅ [1109/1157] The Last Take → 2026-01-09
+✅ [1110/1157] Death Name → 2026-01-09
+✅ [1111/1157] Sleepwalker → 2026-01-09
+✅ [1112/1157] OBEX → 2026-01-09
+✅ [1113/1157] Fall Dies → 2026-01-10
+✅ [1114/1157] Don't → 2026-01-11
+✅ [1115/1157] Doctor Plague → 2026-01-12
+✅ [1116/1157] We Took A Train → 2026-01-13
+✅ [1117/1157] Amityvillenado → 2026-01-13
+✅ [1118/1157] Project 30 → 2026-01-14
+✅ [1119/1157] Alice, my Alice → 2026-01-14
+✅ [1120/1157] Brake-Through → 2026-01-06
+✅ [1121/1157] Walk to Forest → 2026-01-06
+✅ [1122/1157] Godflesh → 2026-01-06
+✅ [1123/1157] little snow → 2026-01-06
+✅ [1124/1157] Notturno, 21 → 2026-01-06
+✅ [1125/1157] Cottage Pie → 2026-01-06
+✅ [1126/1157] El Otro Inquilino → 2026-01-06
+✅ [1127/1157] Shadows → 2026-01-06
+✅ [1128/1157] Paty → 2026-01-05
+✅ [1129/1157] Hotel Papucaia → 2026-01-05
+✅ [1130/1157] Gross boy piercing → 2026-01-04
+✅ [1131/1157] Break N' Enter → 2026-01-04
+✅ [1132/1157] Fuck my black holes, they are bottomless → 2026-01-03
+✅ [1133/1157] Welcome to the Game >ClintsChapter → 2026-01-03
+✅ [1134/1157] Jenseits der Täuschung → 2026-01-03
+✅ [1135/1157] the return of the prodigal son → 2026-01-03
+✅ [1136/1157] DO YOU LOVE ME → 2026-01-02
+✅ [1137/1157] Don't Follow Me → 2025-10-30
+✅ [1138/1157] Diabolical → 2025-09-29
+✅ [1139/1157] Worldbreaker → 2025-10-30
+✅ [1140/1157] Conjuring Tapes → 2025-04-10
+✅ [1141/1157] The Beldham → 2025-11-07
+✅ [1142/1157] Noise → 2025-06-25
+✅ [1143/1157] Please Don't Feed the Children → 2025-07-03
+✅ [1144/1157] Santastein → 2024-11-25
+✅ [1145/1157] The Countess → 2009-03-13
+✅ [1146/1157] Succubus → 2024-10-06
+✅ [1147/1157] La Leyenda de los Chaneques → 2023-07-14
+✅ [1148/1157] Las Leyendas: El Origen → 2021-02-15
+✅ [1149/1157] Michael Jackson's Thriller → 1983-11-14
+✅ [1150/1157] Abraham Lincoln Vampire Hunter: The Great Calamity → 2012-10-23
+✅ [1151/1157] The Legend of the Black Charro → 2018-01-19
+✅ [1152/1157] Ghosts → 1997-09-04
+✅ [1153/1157] The Legend of the Guanajuato Mummies → 2014-10-30
+✅ [1154/1157] While the Wolf's Away → 2017-02-24
+✅ [1155/1157] Doctor Who: The Waters of Mars → 2009-11-15
+✅ [1156/1157] The Legend of the Nahuala → 2007-10-31
+✅ [1157/1157] Godzilla vs. Destoroyah → 1995-12-09
+
+============================================================
+  ✅ Backfill Complete!
+============================================================
+  📊 Results:
+     - Updated: 1157 movies
+     - Skipped: 0 movies
+     - Failed: 0 movies
+============================================================
+

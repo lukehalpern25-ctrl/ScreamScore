@@ -1,0 +1,80 @@
+// ScreamScore Database Schema
+// Prisma schema for horror movie ratings
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+// Movie model - stores movie information with TMDB integration
+model Movie {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Basic Info
+  title       String
+  year        Int?
+  releaseDate DateTime? // Full release date (for determining upcoming vs released)
+  description String?
+  tagline     String?
+  runtime     Int?      // in minutes
+
+  // TMDB Integration
+  tmdbId      Int?      @unique
+  imdbId      String?
+  
+  // Media URLs from TMDB
+  posterPath    String?   // TMDB poster path (e.g., /abc123.jpg)
+  backdropPath  String?   // TMDB backdrop path
+  trailerKey    String?   // YouTube video key for trailer
+
+  // Genres (stored as comma-separated for SQLite simplicity)
+  genres      String?   // e.g., "Horror,Thriller,Mystery"
+
+  // Cast & Crew (stored as JSON strings for SQLite simplicity)
+  director    String?   // Director name
+  cast        String?   // JSON array of top cast: [{"name": "...", "character": "...", "profilePath": "..."}]
+
+  // TMDB Ratings (for reference)
+  tmdbRating  Float?
+  tmdbVotes   Int?
+
+  // IMDB Ratings (from OMDB API - used as "Movie Rating")
+  imdbRating  Float?    // e.g., 7.6 (out of 10)
+  imdbVotes   Int?      // e.g., 816421
+
+  // Relationships
+  ratings     Rating[]
+
+  @@index([tmdbId])
+  @@index([title])
+}
+
+// Rating model - user ratings with ScreamScore's unique three-part system
+model Rating {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+
+  // Movie relationship
+  movieId     String
+  movie       Movie    @relation(fields: [movieId], references: [id], onDelete: Cascade)
+
+  // ScreamScore's unique rating system (1-100 scale)
+  scream        Int    // Jumpscares - how much it makes you scream
+  psychological Int    // Mind fuck - lasting impact, stays with you
+  suspense      Int    // Tension - edge of seat, heart racing
+
+  // Overall movie quality (1-100 scale) - deprecated, using IMDB rating instead
+  movieQuality  Int?  @default(0)
+
+  // Review content
+  review      String?
+  author      String  @default("Anonymous")
+
+  @@index([movieId])
+}
