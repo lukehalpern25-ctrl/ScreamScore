@@ -17,17 +17,23 @@ export default async function Home({ searchParams }: HomeProps) {
   const params = await searchParams;
   let movies = await getMovies();
   
+  console.log(`[Home] Total movies fetched: ${movies.length}`);
+  
   // Filter out movies without trailers - only show movies with trailers on main page
+  const beforeTrailerFilter = movies.length;
   movies = movies.filter(m => m.trailerKey);
+  console.log(`[Home] After trailer filter: ${movies.length} (removed ${beforeTrailerFilter - movies.length})`);
   
   // Filter out released movies without IMDB ratings (but keep upcoming movies)
   // This ensures that when weekly sync updates IMDB ratings, previously hidden movies will appear
+  const beforeImdbFilter = movies.length;
   movies = movies.filter(m => {
     // If it's upcoming, always show it (even without IMDB rating)
     if (isUpcoming(m)) return true;
     // If it's already released, only show if it has an IMDB rating
     return m.imdbRating !== null && m.imdbRating !== undefined;
   });
+  console.log(`[Home] After IMDB filter: ${movies.length} (removed ${beforeImdbFilter - movies.length})`);
   
   // Apply filters from URL params
   const minImdb = params.minImdb ? parseFloat(params.minImdb) : undefined;
@@ -86,6 +92,9 @@ export default async function Home({ searchParams }: HomeProps) {
   const classicHorror = movies.filter(m => m.year && m.year < 1990);
   const slasherMovies = movies.filter(m => m.genres?.toLowerCase().includes('thriller') || m.title.toLowerCase().includes('scream') || m.title.toLowerCase().includes('halloween') || m.title.toLowerCase().includes('friday'));
   const supernaturalMovies = movies.filter(m => m.genres?.toLowerCase().includes('mystery') || m.genres?.toLowerCase().includes('fantasy'));
+  
+  // Jaws only row
+  const jawsMovie = movies.filter(m => m.title.toLowerCase().includes('jaws') && m.year === 1975);
 
   return (
     <div className="min-h-screen relative overflow-hidden">
@@ -220,6 +229,16 @@ export default async function Home({ searchParams }: HomeProps) {
               subtitle="Edge-of-your-seat tension"
               movies={slasherMovies.slice(0, 20)}
               gradientColor="#EF4444"
+            />
+          )}
+
+          {/* Jaws */}
+          {jawsMovie.length > 0 && (
+            <MovieCarousel
+              title="Jaws"
+              subtitle="The original summer blockbuster"
+              movies={jawsMovie}
+              gradientColor="#0EA5E9"
             />
           )}
 

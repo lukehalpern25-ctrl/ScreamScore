@@ -113,6 +113,8 @@ export async function getMovies(): Promise<MovieWithAverages[]> {
     orderBy: { createdAt: "desc" },
   });
   
+  console.log(`[getMovies] Fetched ${movies.length} movies from database`);
+  
   return movies.map(enhanceMovie);
 }
 
