@@ -1,0 +1,389 @@
+🎬 Starting import of 1110 movies...
+
+[1/1110] Processing: 28 Years Later (2025)
+❌ Error importing "28 Years Later (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Authentication failed against database server at `aws-1-us-east-2.pooler.supabase.com`, the provided database credentials for `postgres` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `aws-1-us-east-2.pooler.supabase.com`.
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[2/1110] Processing: 213 Bones (2025)
+❌ Error importing "213 Bones (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Authentication failed against database server at `aws-1-us-east-2.pooler.supabase.com`, the provided database credentials for `postgres` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `aws-1-us-east-2.pooler.supabase.com`.
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[3/1110] Processing: 825 Forest Road (2025)
+❌ Error importing "825 Forest Road (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Authentication failed against database server at `aws-1-us-east-2.pooler.supabase.com`, the provided database credentials for `postgres` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `aws-1-us-east-2.pooler.supabase.com`.
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[4/1110] Processing: Abraham's Boys (2025)
+❌ Error importing "Abraham's Boys (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[5/1110] Processing: Alpha (2025)
+❌ Error importing "Alpha (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[6/1110] Processing: Amityville VR (2025)
+❌ Error importing "Amityville VR (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[7/1110] Processing: Anaconda (2025)
+❌ Error importing "Anaconda (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[8/1110] Processing: Appofeniacs (2025)
+❌ Error importing "Appofeniacs (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[9/1110] Processing: Ash (2025)
+❌ Error importing "Ash (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[10/1110] Processing: Attack 13 (2025)
+❌ Error importing "Attack 13 (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[11/1110] Processing: Bambi: The Reckoning (2025)
+❌ Error importing "Bambi: The Reckoning (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[12/1110] Processing: Beast of War (2025)
+❌ Error importing "Beast of War (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[13/1110] Processing: Beheading (2025)
+❌ Error importing "Beheading (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[14/1110] Processing: Bitter Souls (2025)
+❌ Error importing "Bitter Souls (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[15/1110] Processing: Black Phone 2 (2025)
+❌ Error importing "Black Phone 2 (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[16/1110] Processing: Bloat (2025)
+❌ Error importing "Bloat (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[17/1110] Processing: Bone Face (2025)
+❌ Error importing "Bone Face (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[18/1110] Processing: Bone Lake (2025)
+❌ Error importing "Bone Lake (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[19/1110] Processing: Borderline (2025)
+❌ Error importing "Borderline (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[20/1110] Processing: Borley Rectory: The Awakening (2025)
+❌ Error importing "Borley Rectory: The Awakening (2025)": PrismaClientInitializationError: 
+Invalid `prisma.movie.findFirst()` invocation in
+/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:39
+
+  1202 const { title, year } = parseMovieEntry(entry);
+  1203 
+  1204 // Check if already exists by title (case-insensitive for SQLite using LOWER)
+→ 1205 const existing = await prisma.movie.findFirst(
+Error querying the database: FATAL: Circuit breaker open: Too many authentication errors
+    at $n.handleRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:7615)
+    at $n.handleAndLogRequestError (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/luke/ScremScore/ScreamScore/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async importMovie (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1205:20)
+    at async main (/Users/luke/ScremScore/ScreamScore/scripts/import-movies.ts:1293:22) {
+  clientVersion: '5.22.0',
+  errorCode: undefined
+}
+[21/1110] Processing: Bring Her Back (2025)
