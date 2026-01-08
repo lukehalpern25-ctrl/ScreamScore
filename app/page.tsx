@@ -134,7 +134,7 @@ export default async function Home({ searchParams }: HomeProps) {
               <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight">
                 <span className="text-foreground">Know your Horror</span>
                 <br />
-                <span className="gradient-text">Find your Nightmare</span>
+                <span className="gradient-text">Find your Nightmare (CUM)</span>
               </h2>
               <p className="text-base md:text-lg text-foreground/50 max-w-xl mx-auto leading-relaxed">
                 Movies to keep you up at night
