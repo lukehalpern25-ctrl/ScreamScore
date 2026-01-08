@@ -5,21 +5,22 @@ import Header from "@/components/Header";
 import SearchFilters from "@/components/SearchFilters";
 
 interface SearchPageProps {
-  searchParams: { 
+  searchParams: Promise<{ 
     q?: string;
     minImdb?: string;
     maxImdb?: string;
     minYear?: string;
     maxYear?: string;
-  };
+  }>;
 }
 
 export default async function SearchPage({ searchParams }: SearchPageProps) {
-  const query = searchParams.q || "";
-  const minImdb = searchParams.minImdb ? parseFloat(searchParams.minImdb) : undefined;
-  const maxImdb = searchParams.maxImdb ? parseFloat(searchParams.maxImdb) : undefined;
-  const minYear = searchParams.minYear ? parseInt(searchParams.minYear) : undefined;
-  const maxYear = searchParams.maxYear ? parseInt(searchParams.maxYear) : undefined;
+  const params = await searchParams;
+  const query = params.q || "";
+  const minImdb = params.minImdb ? parseFloat(params.minImdb) : undefined;
+  const maxImdb = params.maxImdb ? parseFloat(params.maxImdb) : undefined;
+  const minYear = params.minYear ? parseInt(params.minYear) : undefined;
+  const maxYear = params.maxYear ? parseInt(params.maxYear) : undefined;
   
   let movies = query ? await searchMovies(query) : [];
   

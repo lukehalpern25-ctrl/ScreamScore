@@ -5,15 +5,16 @@ import Header from "@/components/Header";
 import HomeFilters from "@/components/HomeFilters";
 
 interface HomeProps {
-  searchParams: {
+  searchParams: Promise<{
     minImdb?: string;
     maxImdb?: string;
     minYear?: string;
     maxYear?: string;
-  };
+  }>;
 }
 
 export default async function Home({ searchParams }: HomeProps) {
+  const params = await searchParams;
   let movies = await getMovies();
   
   // Filter out movies without trailers - only show movies with trailers on main page
@@ -29,10 +30,10 @@ export default async function Home({ searchParams }: HomeProps) {
   });
   
   // Apply filters from URL params
-  const minImdb = searchParams.minImdb ? parseFloat(searchParams.minImdb) : undefined;
-  const maxImdb = searchParams.maxImdb ? parseFloat(searchParams.maxImdb) : undefined;
-  const minYear = searchParams.minYear ? parseInt(searchParams.minYear) : undefined;
-  const maxYear = searchParams.maxYear ? parseInt(searchParams.maxYear) : undefined;
+  const minImdb = params.minImdb ? parseFloat(params.minImdb) : undefined;
+  const maxImdb = params.maxImdb ? parseFloat(params.maxImdb) : undefined;
+  const minYear = params.minYear ? parseInt(params.minYear) : undefined;
+  const maxYear = params.maxYear ? parseInt(params.maxYear) : undefined;
   
   const hasFilters = minImdb || maxImdb || minYear || maxYear;
   
