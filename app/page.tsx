@@ -114,8 +114,6 @@ export default async function Home({ searchParams }: HomeProps) {
       .slice(0, 20);
   };
   
-  const slashers = getMoviesByCategory("Slashers", ["thriller", "slasher"]);
-  const supernatural = getMoviesByCategory("Supernatural", ["mystery", "fantasy", "supernatural"]);
 
   // Track displayed movies to prevent duplicates across carousels
   const displayedMovieIds = new Set<string>();
@@ -132,8 +130,6 @@ export default async function Home({ searchParams }: HomeProps) {
   const uniqueRecent = getUniqueMovies(recentMovies, 20);
   const uniqueHighestRated = getUniqueMovies(highestRated, 20);
   const uniqueHorrorClassics = getUniqueMovies(horrorClassics, 20);
-  const uniqueSlashers = getUniqueMovies(slashers);
-  const uniqueSupernatural = getUniqueMovies(supernatural);
 
   return (
     <div className="min-h-screen relative overflow-hidden">
@@ -234,25 +230,6 @@ export default async function Home({ searchParams }: HomeProps) {
               subtitle="Timeless scares from before 1990"
               movies={uniqueHorrorClassics}
               gradientColor="#8B5CF6"
-            />
-          )}
-
-          {/* 5. Horror by Category */}
-          {uniqueSlashers.length > 0 && (
-            <MovieCarousel
-              title="Slashers & Thrillers"
-              subtitle="Edge-of-your-seat tension"
-              movies={uniqueSlashers}
-              gradientColor="#EF4444"
-            />
-          )}
-
-          {uniqueSupernatural.length > 0 && (
-            <MovieCarousel
-              title="Supernatural & Mystery"
-              subtitle="Ghosts, demons, and the unexplained"
-              movies={uniqueSupernatural}
-              gradientColor="#3B82F6"
             />
           )}
 
