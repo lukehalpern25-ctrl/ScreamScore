@@ -6,10 +6,24 @@ const globalForPrisma = globalThis as unknown as {
 };
 
 // Prisma Client configuration for Supabase
-// For Vercel serverless, use Supabase's connection pooler URL
-// Format: postgresql://user:password@host:port/db?pgbouncer=true
+// Vercel's auto-configured DATABASE_URL may not include ?pgbouncer=true
+// This automatically adds it for pooler connections to fix prepared statement errors
+function getDatabaseUrl(): string {
+  const url = process.env.DATABASE_URL || "";
+  if (url.includes("pooler") && !url.includes("pgbouncer=true")) {
+    const separator = url.includes("?") ? "&" : "?";
+    return `${url}${separator}pgbouncer=true`;
+  }
+  return url;
+}
+
 export const prisma = globalForPrisma.prisma ?? new PrismaClient({
   log: process.env.NODE_ENV === "development" ? ["query", "error", "warn"] : ["error"],
+  datasources: {
+    db: {
+      url: getDatabaseUrl(),
+    },
+  },
 });
 
 if (process.env.NODE_ENV !== "production") {
