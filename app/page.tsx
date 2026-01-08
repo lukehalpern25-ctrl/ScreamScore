@@ -120,6 +120,27 @@ export default async function Home({ searchParams }: HomeProps) {
   const sciFiHorror = getMoviesByCategory("Sci-Fi Horror", ["science fiction", "sci-fi"]);
   const creatureFeatures = getMoviesByCategory("Creature Features", ["monster", "creature"]);
 
+  // Track displayed movies to prevent duplicates across carousels
+  const displayedMovieIds = new Set<string>();
+  
+  // Helper function to filter out already displayed movies
+  const getUniqueMovies = (movieList: typeof movies, maxCount: number = 20) => {
+    const unique = movieList.filter(m => !displayedMovieIds.has(m.id));
+    unique.slice(0, maxCount).forEach(m => displayedMovieIds.add(m.id));
+    return unique.slice(0, maxCount);
+  };
+
+  // Get unique movies for each carousel (in order of priority)
+  const uniqueUpcoming = getUniqueMovies(upcomingMovies, 20);
+  const uniqueRecent = getUniqueMovies(recentMovies, 20);
+  const uniqueHighestRated = getUniqueMovies(highestRated, 20);
+  const uniqueHorrorClassics = getUniqueMovies(horrorClassics, 20);
+  const uniqueSlashers = getUniqueMovies(slashers);
+  const uniqueSupernatural = getUniqueMovies(supernatural);
+  const uniquePsychological = getUniqueMovies(psychological);
+  const uniqueSciFiHorror = getUniqueMovies(sciFiHorror);
+  const uniqueCreatureFeatures = getUniqueMovies(creatureFeatures);
+
   return (
     <div className="min-h-screen relative overflow-hidden">
       {/* Background atmospheric effects */}
@@ -154,7 +175,7 @@ export default async function Home({ searchParams }: HomeProps) {
               <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight">
                 <span className="text-foreground">Know your Horror</span>
                 <br />
-                <span className="gradient-text">Find your Nightmare (CUM)</span>
+                <span className="gradient-text">Find your Nightmare</span>
               </h2>
               <p className="text-base md:text-lg text-foreground/50 max-w-xl mx-auto leading-relaxed">
                 Movies to keep you up at night
@@ -183,87 +204,87 @@ export default async function Home({ searchParams }: HomeProps) {
         {/* Movie Carousels */}
         <div className="py-16">
           {/* 1. Upcoming Movies */}
-          {upcomingMovies.length > 0 && (
+          {uniqueUpcoming.length > 0 && (
             <MovieCarousel
               title="Upcoming"
               subtitle="Horror movies coming soon"
-              movies={upcomingMovies.slice(0, 20)}
+              movies={uniqueUpcoming}
               gradientColor="transparent"
             />
           )}
 
           {/* 2. Recent Movies */}
-          {recentMovies.length > 0 && (
+          {uniqueRecent.length > 0 && (
             <MovieCarousel
               title="Recent Releases"
               subtitle="Released in the last 6 months"
-              movies={recentMovies.slice(0, 20)}
+              movies={uniqueRecent}
               gradientColor="#DC2626"
             />
           )}
 
           {/* 3. Highest Rated */}
-          {highestRated.length > 0 && (
+          {uniqueHighestRated.length > 0 && (
             <MovieCarousel
               title="Highest Rated"
               subtitle="Top rated horror films on IMDB"
-              movies={highestRated.slice(0, 20)}
+              movies={uniqueHighestRated}
               gradientColor="#10B981"
             />
           )}
 
           {/* 4. Horror Classics */}
-          {horrorClassics.length > 0 && (
+          {uniqueHorrorClassics.length > 0 && (
             <MovieCarousel
               title="Horror Classics"
               subtitle="Timeless scares from before 1990"
-              movies={horrorClassics.slice(0, 20)}
+              movies={uniqueHorrorClassics}
               gradientColor="#8B5CF6"
             />
           )}
 
           {/* 5. Horror by Category */}
-          {slashers.length > 0 && (
+          {uniqueSlashers.length > 0 && (
             <MovieCarousel
               title="Slashers & Thrillers"
               subtitle="Edge-of-your-seat tension"
-              movies={slashers}
+              movies={uniqueSlashers}
               gradientColor="#EF4444"
             />
           )}
 
-          {supernatural.length > 0 && (
+          {uniqueSupernatural.length > 0 && (
             <MovieCarousel
               title="Supernatural & Mystery"
               subtitle="Ghosts, demons, and the unexplained"
-              movies={supernatural}
+              movies={uniqueSupernatural}
               gradientColor="#3B82F6"
             />
           )}
 
-          {psychological.length > 0 && (
+          {uniquePsychological.length > 0 && (
             <MovieCarousel
               title="Psychological Horror"
               subtitle="Mind-bending terror"
-              movies={psychological}
+              movies={uniquePsychological}
               gradientColor="#EC4899"
             />
           )}
 
-          {sciFiHorror.length > 0 && (
+          {uniqueSciFiHorror.length > 0 && (
             <MovieCarousel
               title="Sci-Fi Horror"
               subtitle="Alien terrors and futuristic fears"
-              movies={sciFiHorror}
+              movies={uniqueSciFiHorror}
               gradientColor="#06B6D4"
             />
           )}
 
-          {creatureFeatures.length > 0 && (
+          {uniqueCreatureFeatures.length > 0 && (
             <MovieCarousel
               title="Creature Features"
               subtitle="Monsters and beasts"
-              movies={creatureFeatures}
+              movies={uniqueCreatureFeatures}
               gradientColor="#F59E0B"
             />
           )}
