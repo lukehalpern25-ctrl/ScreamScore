@@ -119,29 +119,6 @@ export default async function Home({ searchParams }: HomeProps) {
   const psychological = getMoviesByCategory("Psychological", ["thriller", "drama"]);
   const sciFiHorror = getMoviesByCategory("Sci-Fi Horror", ["science fiction", "sci-fi"]);
   const creatureFeatures = getMoviesByCategory("Creature Features", ["monster", "creature"]);
-  
-  // Jaws only row - with full logging
-  console.log(`[Home] Step 5: Starting Jaws filter process`);
-  console.log(`[Home] Jaws Filter: Looking for movies with "jaws" in title and year === 1975`);
-  const allJawsCandidates = movies.filter(m => m.title.toLowerCase().includes('jaws'));
-  console.log(`[Home] Jaws Filter: Found ${allJawsCandidates.length} movies with "jaws" in title:`, 
-    allJawsCandidates.map(m => `"${m.title}" (${m.year})`).join(', '));
-  
-  const jawsMovie = allJawsCandidates.filter(m => m.year === 1975);
-  console.log(`[Home] Jaws Filter: After year filter (1975): ${jawsMovie.length} movies`);
-  
-  if (jawsMovie.length > 0) {
-    jawsMovie.forEach(m => {
-      console.log(`[Home] Jaws Display: Will show "${m.title}" (${m.year}) - hasTrailer: ${!!m.trailerKey}, hasImdbRating: ${m.imdbRating !== null}, imdbRating: ${m.imdbRating || 'N/A'}`);
-    });
-  } else {
-    console.log(`[Home] Jaws Display: No Jaws (1975) movie found in filtered movies`);
-    console.log(`[Home] Jaws Debug: Checking if Jaws exists in all movies...`);
-    const allMoviesCheck = await getMovies();
-    const allJawsInDb = allMoviesCheck.filter(m => m.title.toLowerCase().includes('jaws'));
-    console.log(`[Home] Jaws Debug: Found ${allJawsInDb.length} Jaws movies in database:`, 
-      allJawsInDb.map(m => `"${m.title}" (${m.year}) - hasTrailer: ${!!m.trailerKey}, hasImdbRating: ${m.imdbRating !== null}`).join('; '));
-  }
 
   return (
     <div className="min-h-screen relative overflow-hidden">
@@ -288,16 +265,6 @@ export default async function Home({ searchParams }: HomeProps) {
               subtitle="Monsters and beasts"
               movies={creatureFeatures}
               gradientColor="#F59E0B"
-            />
-          )}
-
-          {/* Jaws */}
-          {jawsMovie.length > 0 && (
-            <MovieCarousel
-              title="Jaws"
-              subtitle="The original summer blockbuster"
-              movies={jawsMovie}
-              gradientColor="#0EA5E9"
             />
           )}
 

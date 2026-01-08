@@ -12,7 +12,9 @@
     "db:seed": "npx tsx prisma/seed.ts",
     "db:reset": "npx prisma migrate reset --force",
     "db:studio": "npx prisma studio",
-    "postinstall": "npx prisma generate"
+    "postinstall": "npx prisma generate",
+    "vercel:link": "vercel link",
+    "vercel:env:pull": "vercel env pull .env.local"
   },
   "prisma": {
     "seed": "npx tsx prisma/seed.ts"
@@ -32,6 +34,7 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "tsx": "^4.21.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "vercel": "^50.1.6"
   }
 }

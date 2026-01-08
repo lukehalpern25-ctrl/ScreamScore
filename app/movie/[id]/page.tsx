@@ -128,9 +128,9 @@ export default async function MoviePage({ params }: PageProps) {
               </div>
             </div>
 
-            {/* Cast & Crew Card - pushed to bottom */}
+            {/* Cast & Crew Card */}
             {(movie.director || movie.parsedCast.length > 0) && (
-              <div className="relative bg-gradient-to-br from-white/[0.03] to-transparent border border-white/5 rounded-xl p-4 mt-auto overflow-hidden">
+              <div className="relative bg-gradient-to-br from-white/[0.03] to-transparent border border-white/5 rounded-xl p-4 overflow-hidden">
                 {/* Subtle accent glow */}
                 <div className="absolute -bottom-10 -left-10 w-24 h-24 bg-[#FF6B35]/10 rounded-full blur-2xl" />
                 
