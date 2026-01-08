@@ -116,9 +116,6 @@ export default async function Home({ searchParams }: HomeProps) {
   
   const slashers = getMoviesByCategory("Slashers", ["thriller", "slasher"]);
   const supernatural = getMoviesByCategory("Supernatural", ["mystery", "fantasy", "supernatural"]);
-  const psychological = getMoviesByCategory("Psychological", ["thriller", "drama"]);
-  const sciFiHorror = getMoviesByCategory("Sci-Fi Horror", ["science fiction", "sci-fi"]);
-  const creatureFeatures = getMoviesByCategory("Creature Features", ["monster", "creature"]);
 
   // Track displayed movies to prevent duplicates across carousels
   const displayedMovieIds = new Set<string>();
@@ -137,9 +134,6 @@ export default async function Home({ searchParams }: HomeProps) {
   const uniqueHorrorClassics = getUniqueMovies(horrorClassics, 20);
   const uniqueSlashers = getUniqueMovies(slashers);
   const uniqueSupernatural = getUniqueMovies(supernatural);
-  const uniquePsychological = getUniqueMovies(psychological);
-  const uniqueSciFiHorror = getUniqueMovies(sciFiHorror);
-  const uniqueCreatureFeatures = getUniqueMovies(creatureFeatures);
 
   return (
     <div className="min-h-screen relative overflow-hidden">
@@ -259,33 +253,6 @@ export default async function Home({ searchParams }: HomeProps) {
               subtitle="Ghosts, demons, and the unexplained"
               movies={uniqueSupernatural}
               gradientColor="#3B82F6"
-            />
-          )}
-
-          {uniquePsychological.length > 0 && (
-            <MovieCarousel
-              title="Psychological Horror"
-              subtitle="Mind-bending terror"
-              movies={uniquePsychological}
-              gradientColor="#EC4899"
-            />
-          )}
-
-          {uniqueSciFiHorror.length > 0 && (
-            <MovieCarousel
-              title="Sci-Fi Horror"
-              subtitle="Alien terrors and futuristic fears"
-              movies={uniqueSciFiHorror}
-              gradientColor="#06B6D4"
-            />
-          )}
-
-          {uniqueCreatureFeatures.length > 0 && (
-            <MovieCarousel
-              title="Creature Features"
-              subtitle="Monsters and beasts"
-              movies={uniqueCreatureFeatures}
-              gradientColor="#F59E0B"
             />
           )}
 
