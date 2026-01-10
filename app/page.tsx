@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getMovies, isUpcoming } from "@/lib/movies";
 import MovieCarousel from "@/components/MovieCarousel";
+import AmazonProductCarousel from "@/components/AmazonProductCarousel";
+import { amazonProducts } from "@/lib/amazon";
 import Header from "@/components/Header";
 import HomeFilters from "@/components/HomeFilters";
 
@@ -202,6 +204,13 @@ export default async function Home({ searchParams }: HomeProps) {
               gradientColor="transparent"
             />
           )}
+
+          {/* Amazon Affiliate Products */}
+          <AmazonProductCarousel
+            title="Shop Horror"
+            subtitle="Horror collectibles and books"
+            products={amazonProducts}
+          />
 
           {/* 2. Recent Movies */}
           {uniqueRecent.length > 0 && (

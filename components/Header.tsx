@@ -26,8 +26,6 @@ export default function Header({ showFilters, filterSlot, rightSlot }: HeaderPro
   const [isSearching, setIsSearching] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
-  const [showJumpscare, setShowJumpscare] = useState(false);
-  const [showGif, setShowGif] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -100,43 +98,8 @@ export default function Header({ showFilters, filterSlot, rightSlot }: HeaderPro
     router.push(`/movie/${movieId}`);
   };
 
-  const handleJumpscare = () => {
-    // Show black screen
-    setShowJumpscare(true);
-    setShowGif(false);
-    
-    // After 1 second, show GIF
-    setTimeout(() => {
-      setShowGif(true);
-      
-      // After 0.5 seconds, hide everything
-      setTimeout(() => {
-        setShowGif(false);
-        setShowJumpscare(false);
-      }, 500);
-    }, 1000);
-  };
-
   return (
-    <>
-      {/* Jumpscare Overlay */}
-      {showJumpscare && (
-        <div className="fixed inset-0 z-[9999] pointer-events-none">
-          {showGif ? (
-            <div className="w-full h-full flex items-center justify-center bg-black">
-              <img
-                src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjMwNzNvd2FpZjFhYm81ZmJhZzBnc3gxZHA5emV4aHpzcXZ6cXl0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohjV8JRMcNVGYK10I/giphy.gif"
-                alt="Jumpscare"
-                className="w-full h-full object-contain"
-              />
-            </div>
-          ) : (
-            <div className="w-full h-full bg-black" />
-          )}
-        </div>
-      )}
-
-      <header
+    <header
         className={`sticky top-0 z-50 bg-background/80 backdrop-blur-md transition-transform duration-300 relative ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
@@ -164,14 +127,6 @@ export default function Header({ showFilters, filterSlot, rightSlot }: HeaderPro
           <div className="flex items-center gap-4">
             {/* Filter Slot (for homepage) */}
             {filterSlot}
-            
-            {/* Jumpscare Button */}
-            <button
-              onClick={handleJumpscare}
-              className="text-foreground/70 hover:text-foreground transition-colors text-sm font-medium px-3 py-1.5 rounded-full hover:bg-white/5"
-            >
-              Click Here Sophia
-            </button>
             
             {/* Custom Right Slot or Default Search/Add Movie */}
             {rightSlot ? (
@@ -255,6 +210,5 @@ export default function Header({ showFilters, filterSlot, rightSlot }: HeaderPro
         </div>
       </div>
     </header>
-    </>
   );
 }
