@@ -56,6 +56,9 @@ export default function AmazonProductCarousel({
                 {subtitle}
               </p>
             )}
+            <p className="text-foreground/30 text-[10px] mt-1">
+              We earn commission from purchases made through these links
+            </p>
           </div>
         </div>
       </div>
