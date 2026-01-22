@@ -17,5 +17,5 @@ export const testMovies = [
   { id: 3004, title: "Saw", category: "Slashers & Thrillers", genres: "Horror, Thriller, Slasher", releaseDate: "2004", poster: "/saw.jpg", rating: 8 },
   { id: 3005, title: "Friday the 13th", category: "Slashers & Thrillers", genres: "Horror, Slasher, Thriller", releaseDate: "1980", poster: "/friday-13th.jpg", rating: 8 },
   { id: 3006, title: "A Nightmare on Elm Street", category: "Slashers & Thrillers", genres: "Horror, Slasher, Thriller", releaseDate: "1984", poster: "/nightmare-on-elm-street.jpg", rating: 9 },
-  { id: 3007, title: "Childs Play", category: "Slashers & Thrillers", genres: "Horror, Slasher, Thriller", releaseDate: "1988", poster: "/childs-play.jpg", rating: 8 },
+  { id: 3007, title: "Childs Play", category: "Slashers & Thrillers", genres: "Horror, Slasher, Thriller", releaseDate: "1988", poster: "/childs-play.jpg", rating: 8 }
 ];
