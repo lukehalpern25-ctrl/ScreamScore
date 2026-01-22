@@ -5,6 +5,8 @@ import AmazonProductCarousel from "@/components/AmazonProductCarousel";
 import { amazonProducts } from "@/lib/amazon";
 import Header from "@/components/Header";
 import HomeFilters from "@/components/HomeFilters";
+import { testMovies } from "@/lib/testMovies";
+
 
 interface HomeProps {
   searchParams: Promise<{
@@ -239,6 +241,26 @@ export default async function Home({ searchParams }: HomeProps) {
               subtitle="Timeless scares from before 1990"
               movies={uniqueHorrorClassics}
               gradientColor="#8B5CF6"
+            />
+          )}
+
+           {/* 5. Supernatural & Mystery (test movies) */}
+          {testMovies.filter(m => m.category === "Supernatural & Mystery").length > 0 && (
+            <MovieCarousel
+              title="Supernatural & Mystery"
+              subtitle="Ghosts, demons, and the unexplained"
+              movies={testMovies.filter(m => m.category === "Supernatural & Mystery")}
+              gradientColor="#3B82F6"
+            />
+          )}
+
+          {/* 6. Slashers & Thrillers (test movies) */}
+          {testMovies.filter(m => m.category === "Slashers & Thrillers").length > 0 && (
+            <MovieCarousel
+              title="Slashers & Thrillers"
+              subtitle="Edge-of-your-seat tension"
+              movies={testMovies.filter(m => m.category === "Slashers & Thrillers")}
+              gradientColor="#EF4444"
             />
           )}
 
