@@ -7,7 +7,6 @@ import Header from "@/components/Header";
 import HomeFilters from "@/components/HomeFilters";
 import { testMovies } from "@/lib/testMovies";
 
-
 interface HomeProps {
   searchParams: Promise<{
     minImdb?: string;
@@ -19,7 +18,7 @@ interface HomeProps {
 
 export default async function Home({ searchParams }: HomeProps) {
   const params = await searchParams;
-  let movies = await getMovies();
+  let movies = testMovies;
   
   console.log(`[Home] Step 1: Fetched ${movies.length} total movies from database`);
   
